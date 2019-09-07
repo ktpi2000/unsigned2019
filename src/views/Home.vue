@@ -1,12 +1,16 @@
-<template>
-  <div class="main">
-    <h1>Unsigned2019</h1>
-    <p>2019/11/03-04 @koryosai</p>
-  </div>
+<template lang="pug">
+div
+	top/
 </template>
 
 <script>
+import top from '../components/top.vue'
 
+export default {
+	components: {
+		top
+	},
+};
 </script>
 
 <style>
