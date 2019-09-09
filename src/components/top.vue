@@ -1,13 +1,10 @@
-<template>
-<main>
-    <div class="top-slideshow-wrapper">
-      <ul id="slideshow">
-
-        <!-- パスを変更する必要あり -->
-        <li data-src="../assets/img/img1.jpg"></li>
-      </ul>
-    </div>
-  </main>
+<template lang="pug">
+body
+  main
+    .top-slideshow-wrapper
+      ul#slideshow
+        // パスを変更する必要あり
+        li(data-src="../assets/img/img1.jpg")
 </template>
 
 <script>
