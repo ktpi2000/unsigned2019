@@ -116,4 +116,9 @@ export default {
       height: calc(100vh - 135px);
     }
 
+    img {
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+    }
   </style>
