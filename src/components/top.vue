@@ -3,8 +3,14 @@ body
   main
     .top-slideshow-wrapper
       ul#slideshow
-        // パスを変更する必要あり
-        li(data-src="../assets/img/img1.jpg")
+        li
+          img(src="../assets/img/test.jpg")
+        li
+          img(src="../assets/img/cat.jpg")
+        li
+          img(src="../assets/img/hoge.jpg")
+        li
+          img(src="../assets/img/XP.jpg")
 </template>
 
 <script>
@@ -15,11 +21,11 @@ export default {
       const slideshow = document.getElementById('slideshow');
       const slide = slideshow.querySelectorAll('li');
       [...slide].forEach(slide => {
-        slide.style.backgroundImage = `url(${slide.getAttribute('data-src')})`
-        slide.removeAttribute('data-src');
+        slide.style.backgroundImage = `url(${slide.getAttribute('src')})`
+        slide.removeAttribute('src');
       });
       const totalNum = slide.length - 1;
-      const fadeTime = 2000;
+      const fadeTime = 3000;
       const intarvalTime = 5000;
       let actNum = 0;
       let nowSlide;
@@ -46,19 +52,17 @@ export default {
 
 <style>
     body {
-      background-color: #777777;
+      background-color: #2f2f2f;  /* 画像の暗さを調整 */
     }
 
     main {
-      margin-left: 0;
-      margin-right: 0;
-      margin-top: 0;
+      margin: 0;
       max-width: none;
       width: 100%;
     }
 
     .top-slideshow-wrapper {
-      height: calc(100vh - 225px);
+      height: 100vh;
       overflow: hidden;
       position: relative;
       width: 100%;
