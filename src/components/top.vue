@@ -51,14 +51,11 @@ export default {
 </script>
 
 <style>
-    body {
-      background-color: #2f2f2f;  /* 画像の暗さを調整 */
-    }
-
     main {
       margin: 0;
       max-width: none;
       width: 100%;
+      background-color: #2f2f2f;
     }
 
     .top-slideshow-wrapper {

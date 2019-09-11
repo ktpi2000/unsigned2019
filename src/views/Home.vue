@@ -1,25 +1,21 @@
 <template lang="pug">
 div
 	top/
+	member/
 </template>
 
 <script>
 import top from '../components/top.vue'
+import member from '../components/member.vue'
 
 export default {
 	components: {
-		top
+		top,
+		member
 	},
 };
 </script>
 
 <style>
-.main {
-  text-align: center;
-  font-size: 10vw;
-}
 
-h1 {
-  color: red;
-}
 </style>
