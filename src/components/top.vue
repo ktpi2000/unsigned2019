@@ -4,13 +4,13 @@ body
     .top-slideshow-wrapper
       ul#slideshow
         li
-          img(src="../assets/img/test.jpg")
+          img.topimg(src="../assets/img/test.jpg")
         li
-          img(src="../assets/img/cat.jpg")
+          img.topimg(src="../assets/img/cat.jpg")
         li
-          img(src="../assets/img/hoge.jpg")
+          img.topimg(src="../assets/img/hoge.jpg")
         li
-          img(src="../assets/img/XP.jpg")
+          img.topimg(src="../assets/img/XP.jpg")
 </template>
 
 <script>
@@ -113,7 +113,7 @@ export default {
       height: calc(100vh - 135px);
     }
 
-    img {
+    .topimg {
       width: 100%;
       height: 100vh;
       object-fit: cover;
