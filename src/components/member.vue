@@ -14,6 +14,8 @@
                     span.member-name {{member.name}}
                 .member-category
                     p {{member.category}}
+                .member-twitter
+                    a(:href="member.twitter") twitter
 </template>
 
 <script>
@@ -22,7 +24,7 @@ export default {
         return {
             currentFilter: 'ALL',
             members: [
-                {name: "Massu", image: require("../assets/img/member/massu.jpg"), category: 'DJ'},
+                {name: "Massu", image: require("../assets/img/member/massu.jpg"), category: 'DJ', twitter: 'https://twitter.com/Maspi_427'},
                 {name: "Ma", image: require("../assets/img/member/massu.jpg"), category: 'DTM'},
                 {name: "Mas", image: require("../assets/img/member/massu.jpg"), category: 'DJ'},
                 {name: "Mass", image: require("../assets/img/member/massu.jpg"), category: 'DJ'},
