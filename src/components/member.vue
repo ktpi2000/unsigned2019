@@ -9,7 +9,7 @@
         transition-group.members(name="members")
             .member(v-if="currentFilter === member.category || currentFilter === 'ALL'" v-bind:key="member.name" v-for="member in members")
                 .member-image-wrapper
-                    img.member-image(v-bind:src="member.image")
+                    img.member-image(v-bind:src="member.image" alt="member img")
                 .member-name
                     span.member-name {{member.name}}
                 .member-category
