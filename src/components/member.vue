@@ -35,27 +35,27 @@ export default {
                     comment: 'hello! good! yay!'
                 },
                 {
-                    name: "Ma",
+                    name: "Maaaa",
                     image: require("../assets/img/member/massu.jpg"),
                     category: 'DTM'
                 },
                 {
-                    name: "Ma",
+                    name: "Madd",
                     image: require("../assets/img/member/massu.jpg"),
                     category: 'DTM'
                 },
                 {
-                    name: "Ma",
+                    name: "Mae",
                     image: require("../assets/img/member/massu.jpg"),
                     category: 'DTM'
                 },
                 {
-                    name: "Ma",
+                    name: "Mat",
                     image: require("../assets/img/member/massu.jpg"),
                     category: 'DTM'
                 },
                 {
-                    name: "Ma",
+                    name: "Mah",
                     image: require("../assets/img/member/massu.jpg"),
                     category: 'DTM'
                 },
