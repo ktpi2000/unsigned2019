@@ -11,6 +11,11 @@ body
           img.topimg(src="../assets/img/hoge.jpg")
         li
           img.topimg(src="../assets/img/XP.jpg")
+  figcaption.title
+    .main-title Unsiged2019
+    .sub-text 2019.11.03[sun]~04[man]
+    br
+    | @koryosai
 </template>
 
 <script>
@@ -50,12 +55,25 @@ export default {
 
 </script>
 
-<style>
+<style scoped>
     main {
       margin: 0;
       max-width: none;
       width: 100%;
       background-color: #2f2f2f;
+    }
+
+    .title {
+      position: absolute;
+    top: 30%;
+    width: 100%;
+    color: #FFFFFF !important; 
+    }
+
+    .main-title {
+      color: #FFFFFF !important;
+      font-size: 8vw;
+      margin-bottom: 30px;
     }
 
     .top-slideshow-wrapper {
