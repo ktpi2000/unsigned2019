@@ -4,13 +4,15 @@ body
     .top-slideshow-wrapper
       ul#slideshow
         li
-          img.topimg(src="../assets/img/test.jpg")
+          img.topimg(src="../assets/img/top001.jpg")
         li
-          img.topimg(src="../assets/img/cat.jpg")
+          img.topimg(src="../assets/img/top002.jpg")
         li
-          img.topimg(src="../assets/img/hoge.jpg")
+          img.topimg(src="../assets/img/top003.jpg")
         li
-          img.topimg(src="../assets/img/XP.jpg")
+          img.topimg(src="../assets/img/top004.jpg")
+        li
+          img.topimg(src="../assets/img/top005.jpg")
   figcaption.title
     .main-title Unsiged2019
     .sub-text 2019.11.03[sun]~04[man]
