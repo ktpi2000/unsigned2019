@@ -18,13 +18,22 @@
                     a(:href="member.twitter") twitter
                 .member-comment
                     p {{ member.comment}}
+                button(@click="openModal(member)") more
+
+        modal(:val="postMember" v-if="showModal" @close="closeModal")
 </template>
 
 <script>
+import modal from './modal.vue'
 export default {
+    components: {
+        modal
+    },
     data: function() {
         return {
             currentFilter: 'ALL',
+            showModal: false,
+            postMember: '',
 
             members: [
                 {
@@ -66,6 +75,13 @@ export default {
 		setFilter: function(filter) {
 			this.currentFilter = filter;
 		},
+        openModal(member) {
+            this.postMember = member;
+            this.showModal = true;
+        },
+        closeModal() {
+            this.showModal = false;
+        }
     }
 }
 </script>
