@@ -1,17 +1,12 @@
-<template>
-    <transition>
-        <div class="modal-mask" @click="$emit('close')">
-            <div class="modal-wrapper">
-                <div class="modal-container">
-                    {{ val.name }}
-                    <img class="member-image" v-bind:src="val.image" alt="member img" />
-                    <button @click="$emit('close')">
-                        OK
-                    </button>
-                </div>
-            </div>
-        </div>
-    </transition>
+<template lang="pug">
+    transition
+      .modal-mask(@click="$emit('close')")
+        .modal-wrapper
+          .modal-container
+            | {{ val.name }}
+            img.member-image(v-bind:src="val.image" alt="member img")
+            button(@click="$emit('close')")
+              | OK
 </template>
 
 <script>
