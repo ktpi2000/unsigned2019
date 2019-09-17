@@ -11,6 +11,8 @@ div
 	member/
 	h1 timetable
 	timetable/
+	h1 DTM
+	DTM/
 </template>
 
 <script>
@@ -20,6 +22,7 @@ import guestDJ from '../components/guestDJ.vue'
 import guestVJ from '../components/guestVJ.vue'
 import member from '../components/member.vue'
 import timetable from '../components/timetable.vue'
+import DTM from '../components/DTM.vue'
 
 export default {
 	components: {
@@ -29,6 +32,7 @@ export default {
 		guestVJ,
 		member,
 		timetable,
+		DTM
 	},
 };
 </script>
