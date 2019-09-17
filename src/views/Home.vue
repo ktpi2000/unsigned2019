@@ -3,8 +3,8 @@ div
 	top/
 	h1 ABOUT
 	about/
-	h1 GUEST
-	guest/
+	h1 GUEST DJ
+	guestDJ/
 	h1 MEMBER
 	member/
 	h1 timetable
@@ -14,7 +14,7 @@ div
 <script>
 import top from '../components/top.vue'
 import about from '../components/about.vue'
-import guest from '../components/guest.vue'
+import guestDJ from '../components/guestDJ.vue'
 import member from '../components/member.vue'
 import timetable from '../components/timetable.vue'
 
@@ -22,7 +22,7 @@ export default {
 	components: {
 		top,
 		about,
-		guest,
+		guestDJ,
 		member,
 		timetable,
 	},
