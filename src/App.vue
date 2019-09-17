@@ -30,4 +30,20 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+.block-revealer {
+  position: relative;
+}
+
+/* The actual block that overlays */
+.block-revealer__element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  pointer-events: none;
+  opacity: 0;
+}
 </style>

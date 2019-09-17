@@ -1,17 +1,17 @@
 <template lang="pug">
 div
 	top/
-	h1 ABOUT
+	h1(v-block-reveal="") ABOUT
 	about/
-	h1 GUEST DJ
+	h1(v-block-reveal="") GUEST DJ
 	guestDJ/
-	h1 GUEST VJ
+	h1(v-block-reveal="") GUEST VJ
 	guestVJ/
-	h1 MEMBER
+	h1(v-block-reveal="") MEMBER
 	member/
-	h1 timetable
+	h1(v-block-reveal="") timetable
 	timetable/
-	h1 DTM
+	h1(v-block-reveal="") DTM
 	DTM/
 </template>
 
@@ -38,5 +38,7 @@ export default {
 </script>
 
 <style>
-
+h1 {
+	font-size: 3vw;
+}
 </style>
