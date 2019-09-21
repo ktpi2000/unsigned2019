@@ -9,7 +9,7 @@ div
 	guestVJ/
 	h1(v-block-reveal="") MEMBER
 	member/
-	h1(v-block-reveal="") timetable
+	h1(v-block-reveal="") TIMETABLE
 	timetable/
 	h1(v-block-reveal="") DTM
 	DTM/
