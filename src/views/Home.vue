@@ -1,5 +1,5 @@
 <template lang="pug">
-div
+.home
 	top/
 	h1(v-block-reveal="") ABOUT
 	about/
@@ -40,5 +40,9 @@ export default {
 <style>
 h1 {
 	font-size: 3vw;
+}
+
+.home {
+	overflow: hidden;
 }
 </style>
