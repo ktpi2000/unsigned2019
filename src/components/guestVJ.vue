@@ -1,8 +1,8 @@
 <template lang="pug">
     div
 
-        transition-group.members(name="members")
-            .member(v-if="currentFilter === member.category || currentFilter === 'ALL'" v-bind:key="member.name" v-for="member in members")
+        transition-group.members(name="members" class="columns is-multiline is-mobile")
+            .member(v-if="currentFilter === member.category || currentFilter === 'ALL'" v-bind:key="member.name" v-for="member in members" class="column is-3-desktop is-11-mobile is-3-tablet")
                 .member-image-wrapper
                     img.member-image(v-bind:src="member.image" alt="member img")
                 .member-name

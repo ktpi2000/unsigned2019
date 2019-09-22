@@ -1,8 +1,8 @@
 <template lang="pug">
     div
 
-        transition-group.members(name="members")
-            .member(v-if="currentFilter === member.category || currentFilter === 'ALL'" v-bind:key="member.name" v-for="member in members")
+        transition-group.members(name="members" class="columns is-multiline is-mobile")
+            .member(v-if="currentFilter === member.category || currentFilter === 'ALL'" v-bind:key="member.name" v-for="member in members" class="column is-3-desktop is-11-mobile is-3-tablet")
                 .member-image-wrapper
                     img.member-image(v-bind:src="member.image" alt="member img")
                 .member-name
@@ -11,8 +11,6 @@
                     p {{member.category}}
                 .member-twitter
                     a(:href="member.twitter") twitter
-                .member-comment
-                    p {{ member.comment}}
                 button(@click="openModal(member)") more
 
         modal(:val="postMember" v-if="showModal" @close="closeModal")
@@ -37,6 +35,12 @@ export default {
                     category: 'GUEST',
                     twitter: 'https://twitter.com/FonfonOKM',
                     comment: '栃木県大田原市出身、在住。オーディエンスをリスペクトしたソウルフルなプレイが信条。好きなアニメはたまこまーけっと、たまこラブストーリー。'
+                },
+                {
+                    name: "4mくん",
+                    image: require("../assets/img/member/massu.jpg"),
+                    category: 'GUEST',
+                    comment: '唯一無二才色兼備の僕です'
                 },
                 {
                     name: "4mくん",
