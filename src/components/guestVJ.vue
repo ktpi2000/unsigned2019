@@ -13,7 +13,7 @@
                     a(:href="member.twitter") twitter
                 .member-comment
                     p {{ member.comment}}
-                button(@click="openModal(member)") more
+                div(@click="openModal(member)" class="more-button") more
 
         modal(:val="postMember" v-if="showModal" @close="closeModal")
 </template>
@@ -98,5 +98,22 @@ export default {
 	box-shadow:0px 2px 8px lightgrey;
 	flex-direction:column;
 	align-items:center;
+}
+
+.more-button {
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #FFF;
+  background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+  transition: .4s;
+  width: 45%;
+}
+
+.more-button:hover {
+  background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+  cursor: pointer;
+cursor: hand;
 }
 </style>
