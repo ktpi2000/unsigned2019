@@ -103,12 +103,12 @@ export default {
 }
 
 .filter {
-	font-family:arial;
-	padding: 6px 6px;
-	cursor:pointer;
-	border-radius: 6px;
-	transition: all 0.35s;
     margin: 0px 15px;
+    background-color: green;
+}
+
+.active {
+    background-color: red;
 }
 
 .member-image {
