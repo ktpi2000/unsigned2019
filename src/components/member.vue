@@ -6,8 +6,8 @@
                 span.filter(v-bind:class="{ active: currentFilter === 'DJ' }" v-on:click="setFilter('DJ')") DJ
                 span.filter(v-bind:class="{ active: currentFilter === 'DTM' }" v-on:click="setFilter('DTM')") DTM
 
-        transition-group.members(name="members")
-            .member(v-if="currentFilter === member.category || currentFilter === 'ALL'" v-bind:key="member.name" v-for="member in members")
+        transition-group.members(name="members" class="columns is-multiline is-mobile")
+            .member(v-if="currentFilter === member.category || currentFilter === 'ALL'" v-bind:key="member.name" v-for="member in members" class="column is-3-desktop is-5-mobile is-3-tablet")
                 .member-image-wrapper
                     img.member-image(v-bind:src="member.image" alt="member img")
                 .member-name
@@ -115,12 +115,14 @@ export default {
     width: 200px;
 }
 
+/*
 .members {
     margin-top:25px;
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:center;
 }
+*/
 
 .member {
     margin: 0px 10px;
