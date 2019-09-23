@@ -13,6 +13,8 @@
 	timetable/
 	h1(v-block-reveal="") DTM
 	DTM/
+	h1(v-block-reveal="") ACCESS
+	access/
 </template>
 
 <script>
@@ -23,6 +25,7 @@ import guestVJ from '../components/guestVJ.vue'
 import member from '../components/member.vue'
 import timetable from '../components/timetable.vue'
 import DTM from '../components/DTM.vue'
+import access from '../components/access.vue'
 
 export default {
 	components: {
@@ -32,7 +35,8 @@ export default {
 		guestVJ,
 		member,
 		timetable,
-		DTM
+		DTM,
+		access,
 	},
 };
 </script>
