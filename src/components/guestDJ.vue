@@ -13,7 +13,8 @@
                     a(:href="member.twitter") twitter
                 div(@click="openModal(member)" class="more-button") more
 
-        modal(:val="postMember" v-if="showModal" @close="closeModal")
+        b-modal(:active.sync="isModalActive" has-modal-card="")
+            modal(v-bind="formProps")
 </template>
 
 <script>
@@ -25,9 +26,10 @@ export default {
     data: function() {
         return {
             currentFilter: 'ALL',
-            showModal: false,
-            postMember: '',
-
+            isModalActive: false,
+            formProps: {
+                member: ''
+            },
             members: [
                 {
                     name: "ふぉん",
@@ -56,12 +58,9 @@ export default {
 			this.currentFilter = filter;
 		},
         openModal(member) {
-            this.postMember = member;
-            this.showModal = true;
+            this.formProps.member = member;
+            this.isModalActive = true;
         },
-        closeModal() {
-            this.showModal = false;
-        }
     }
 }
 </script>
