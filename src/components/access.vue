@@ -13,11 +13,30 @@
             h2 電車でお越しの方
             img(src="@/assets/img/traffic-map.jpg" alt="traffic-map")
             h2 バスのご案内
+            .content
+                ol
+                    li 
+                        | 無料シャトルバス
+                        
+                    br
+                    li 小山市コミュニティバス おーバス
+                    p.fare 運賃:200円 IC利用不可
+                    ul
+                        li 
+                            | 高岳線 小山高専入り口で下車 
+                            a.button.is-info.is-small(href="https://www.city.oyama.tochigi.jp/uploaded/attachment/1817.pdf" target="_blank") 時刻表
+                        br
+                        li 
+                            | 城東中久喜線 高専正門で下車 
+                            a.button.is-info.is-small(href="https://www.city.oyama.tochigi.jp/uploaded/attachment/1818.pdf" target="_blank") 時刻表
             h2 お車でお越しの方
 </template>
 
 <style scoped>
 h2 {
+    text-align: left;
+}
+li,.fare {
     text-align: left;
 }
 </style>
