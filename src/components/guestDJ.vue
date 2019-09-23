@@ -43,7 +43,7 @@ export default {
                     comment: '唯一無二才色兼備の僕です'
                 },
                 {
-                    name: "4mくん",
+                    name: "ゴコメくん",
                     image: require("../assets/img/member/massu.jpg"),
                     category: 'GUEST',
                     comment: '唯一無二才色兼備の僕です'
