@@ -49,8 +49,4 @@ export default {
 h1 {
 	font-size: 3vw;
 }
-
-.home {
-	overflow: hidden;
-}
 </style>
