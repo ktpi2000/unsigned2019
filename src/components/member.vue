@@ -16,7 +16,7 @@
                     p {{member.category}}
                 .member-twitter
                     a(:href="member.twitter") twitter
-                div(@click="openModal(member)" class="more-button") more
+                .button.is-danger.is-rounded(@click="openModal(member)") more
 
         b-modal(:active.sync="isModalActive" has-modal-card="")
             modal(v-bind="formProps")
@@ -126,22 +126,5 @@ export default {
 	box-shadow:0px 2px 8px lightgrey;
 	flex-direction:column;
 	align-items:center;
-}
-
-.more-button {
-  display: inline-block;
-  padding: 7px 20px;
-  border-radius: 25px;
-  text-decoration: none;
-  color: #FFF;
-  background-image: linear-gradient(45deg, #FFC107 0%, #945fff 100%);
-  transition: .4s;
-  width: 45%;
-}
-
-.more-button:hover {
-  background-image: linear-gradient(45deg, #FFC107 0%, #675fff 100%);
-  cursor: pointer;
-cursor: hand;
 }
 </style>
