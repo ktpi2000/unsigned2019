@@ -15,6 +15,8 @@
 	DTM/
 	h1(v-block-reveal="") ACCESS
 	access/
+	h1(v-block-reveal="") CAUTION
+	caution/
 </template>
 
 <script>
@@ -26,6 +28,7 @@ import member from '../components/member.vue'
 import timetable from '../components/timetable.vue'
 import DTM from '../components/DTM.vue'
 import access from '../components/access.vue'
+import caution from '../components/caution.vue'
 
 export default {
 	components: {
@@ -37,6 +40,7 @@ export default {
 		timetable,
 		DTM,
 		access,
+		caution,
 	},
 };
 </script>
