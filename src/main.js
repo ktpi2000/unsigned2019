@@ -11,7 +11,7 @@ Vue.config.productionTip = false
 
 Vue.use(VueBlockReveal, {
   direction: 'lr',
-  bgcolor: 'red'
+  bgcolor: '#9b003f'
 });
 
 new Vue({
