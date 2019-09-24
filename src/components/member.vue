@@ -81,7 +81,7 @@ export default {
                 },
                 {
                     name: "880",
-                    image: require("../assets/img/member/un_8th_icon.png"),
+                    image: require("../assets/img/member/880.jpg"),
                     category: "ANISON",
                     twitter: "https://twitter.com/hayao099",
                     credit: "いしあに!!/A_motions",
