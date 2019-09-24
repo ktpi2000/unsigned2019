@@ -30,6 +30,7 @@
                             | 城東中久喜線 高専正門で下車 
                             a.button.is-info.is-small(href="https://www.city.oyama.tochigi.jp/uploaded/attachment/1818.pdf" target="_blank") 時刻表
             h2 お車でお越しの方
+            img(src="@/assets/img/parking.jpg" alt="parking-map")
 </template>
 
 <style scoped>
