@@ -16,8 +16,7 @@ body
   figcaption.title
     .main-title Unsiged2019
     .sub-text 2019.11.03[sun]~04[man]
-    br
-    | @koryosai
+    .sub-text @koryosai
 </template>
 
 <script>
