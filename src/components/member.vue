@@ -61,7 +61,7 @@ export default {
                 },
                 {
                     name: "サブレ",
-                    image: require("../assets/img/member/un_8th_icon.png"),
+                    image: require("../assets/img/member/sabure.jpg"),
                     category: "ANISON",
                     twitter: "https://twitter.com/sacurea_sbr55",
                     comment: "4回目のUnsigned参戦で今年からOB。3年前のUnsignedにて特撮オンリーでDJデビューしてから、北関東のアニクラを中心に遊びに行きながら活動中。群馬に引っ越したけどやっぱり小山のラーメンが好き！埼玉も好き。",
