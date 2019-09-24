@@ -14,7 +14,7 @@ div
         .column.is-5
             h2.is-size-4 ◇電車でお越しの方
             img(src="@/assets/img/traffic-map.jpg" alt="traffic-map")
-            h2 バスのご案内
+            h2.is-size-5 ◇バスのご案内
             p.platform 乗り場: 小山駅東口バスのりば
             .content
                 ol
