@@ -13,6 +13,7 @@
             h2 電車でお越しの方
             img(src="@/assets/img/traffic-map.jpg" alt="traffic-map")
             h2 バスのご案内
+            p.platform 乗り場: 小山駅東口バスのりば
             .content
                 ol
                     li 
@@ -31,13 +32,18 @@
                             a.button.is-info.is-small(href="https://www.city.oyama.tochigi.jp/uploaded/attachment/1818.pdf" target="_blank") 時刻表
             h2 お車でお越しの方
             img(src="@/assets/img/parking.jpg" alt="parking-map")
+            .content
+                ul   
+                    li なるべく公共交通機関のご利用をお願いいたします。
+                    li すぎの木クリニックの駐車場は11/4のみご利用できます。
+                    li ご不明な点は、工陵祭の役員にお尋ね下さい。
 </template>
 
 <style scoped>
 h2 {
     text-align: left;
 }
-li,.fare {
+li,.fare,.platform {
     text-align: left;
 }
 </style>
