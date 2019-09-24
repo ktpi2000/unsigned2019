@@ -7,6 +7,7 @@
 
 <style scoped>
 .footer {
+    margin-top: 150px;
     background: black;
     color: white;
 }
