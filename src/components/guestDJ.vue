@@ -29,22 +29,24 @@ export default {
             members: [
                 {
                     name: "ふぉん",
-                    image: require("../assets/img/member/massu.jpg"),
-                    category: 'GUEST',
-                    twitter: 'https://twitter.com/FonfonOKM',
-                    comment: '栃木県大田原市出身、在住。オーディエンスをリスペクトしたソウルフルなプレイが信条。好きなアニメはたまこまーけっと、たまこラブストーリー。'
+                    image: require("../assets/img/member/un_8th_icon.png"),
+                    category: "GUEST",
+                    twitter: "https://twitter.com/FonfonOKM",
+                    credit: "ANIMA / A_motions",
+                    comment: "栃木県大田原市出身、在住。オーディエンスをリスペクトしたソウルフルなプレイが信条。好きなアニメはたまこまーけっと、たまこラブストーリー。"
                 },
                 {
                     name: "4mくん",
-                    image: require("../assets/img/member/massu.jpg"),
-                    category: 'GUEST',
-                    comment: '唯一無二才色兼備の僕です'
+                    image: require("../assets/img/member/4m.jpg"),
+                    category: "GUEST",
+                    comment: "唯一無二才色兼備の僕です"
                 },
                 {
-                    name: "ゴコメくん",
-                    image: require("../assets/img/member/massu.jpg"),
-                    category: 'GUEST',
-                    comment: '唯一無二才色兼備の僕です'
+                    name: "ごこめ",
+                    image: require("../assets/img/member/un_8th_icon.png"),
+                    category: "GUEST",
+                    twitter: "https://twitter.com/gokome_V",
+                    comment: "最近Vtuberにハマりだしたサブカルオタク受験生。中学時代にオタクになり、その後、高校デビューを目指しオタク脱却を願ったがアニソンの沼にハマってしまい断念。unsigned2017に訪れたのをきっかけにアニソンDJをスタート。主にkz(livetune)の手掛ける楽曲が好き。DJ歴3年に満たない若手なのでお手柔らかにお願いします。"
                 },
             ]
         }
