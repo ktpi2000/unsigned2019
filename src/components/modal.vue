@@ -17,7 +17,7 @@ div
       p.is-size-5 {{member.comment}}
 
     footer.modal-card-foot
-      button.button(type="button" @click="$parent.close()") close
+      button.button.is-rounded.is-medium( @click="$parent.close()") close
 </template>
 
 <script>
