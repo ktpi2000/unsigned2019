@@ -103,6 +103,8 @@ export default {
     border: solid 2px #9b003f;
     color: black;
     border-radius: 25px;
+    cursor: pointer;
+    cursor: hand;
 }
 
 .active {

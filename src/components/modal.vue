@@ -6,11 +6,12 @@ div
     section.modal-card-body
       img.member-image(v-bind:src="member.image" alt="member img")
       br
+      p.is-size-6 {{member.credit}}
       b-tag.is-size-6(rounded) {{member.category}}
       br
       br
       .member-twitter
-        a(:href="member.twitter")
+        a(:href="member.twitter" target="_blank")
           img(src="../assets/img/Twitter_icon.png"  width="40px")
       br
       p.is-size-5 {{member.comment}}
