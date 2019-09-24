@@ -17,6 +17,7 @@
 	access/
 	h1(v-block-reveal="") CAUTION
 	caution/
+	Footer/
 </template>
 
 <script>
@@ -29,6 +30,7 @@ import timetable from '../components/timetable.vue'
 import DTM from '../components/DTM.vue'
 import access from '../components/access.vue'
 import caution from '../components/caution.vue'
+import Footer from '../components/footer.vue'
 
 export default {
 	components: {
@@ -41,6 +43,7 @@ export default {
 		DTM,
 		access,
 		caution,
+		Footer,
 	},
 };
 </script>
