@@ -15,15 +15,19 @@ body
           img.topimg(src="../assets/img/top005.jpg" alt="top img5")
   figcaption.title
     .main-title Unsiged2019
-    .sub-text 2019.11.03[sun]~04[man]
+    .sub-text 
+      | 2019.
+      span.date 11.03
+      |[sun]~
+      span.date 04
+      |[mon]
     .sub-text @koryosai
 </template>
 
-<script>
+<script scoped>
 export default {
   mounted: function() {
     window.addEventListener('load', function() {
-      //処理
       const slideshow = document.getElementById('slideshow');
       const slide = slideshow.querySelectorAll('li');
       [...slide].forEach(slide => {
@@ -57,27 +61,11 @@ export default {
 </script>
 
 <style scoped>
-body {
-  margin: 0;
-}
-
 main {
   margin: 0;
   max-width: none;
   width: 100%;
   background-color: #2f2f2f;
-}
-
-.title {
-position: absolute;
-top: 30%;
-width: 100%;
-color: #FFFFFF !important; 
-}
-
-.main-title { 
-  font-size: 8vw;
-  margin-bottom: 30px;
 }
 
 .top-slideshow-wrapper {
@@ -131,5 +119,53 @@ color: #FFFFFF !important;
   width: 100%;
   height: 100vh;
   object-fit: cover;
+}
+
+.title {
+position: absolute;
+top: 30%;
+width: 100%;
+color: #FFFFFF !important; 
+}
+
+.main-title { 
+  font-size: 8vw;
+  margin-bottom: 30px;
+}
+
+.sub-text {
+  font-size: 2vw;
+}
+
+.date {
+  font-size: 3vw;
+}
+
+@media screen and (max-width: 1024px) {
+.main-title { 
+font-size: 12vw;
+margin-bottom: 30px;
+}
+
+.sub-text {
+font-size: 3vw;
+}
+.date {
+  font-size: 5vw;
+}
+}
+
+@media screen and (max-width: 480px) {
+.main-title { 
+  font-size: 14vw;
+  margin-bottom: 30px;
+}
+
+.sub-text {
+  font-size: 5vw;
+}
+.date {
+  font-size: 8vw;
+}
 }
 </style>
