@@ -54,5 +54,6 @@ h1 {
 }
 .home {
 	overflow: hidden;
+	font-family: 'Noto Sans JP',   sans-serif;
 }
 </style>
