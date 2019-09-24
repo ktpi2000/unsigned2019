@@ -101,11 +101,16 @@ export default {
 
 .filter {
     margin: 0px 15px;
-    background-color: green;
+    padding: 6px 10px;
+    border: solid 2px #9b003f;
+    color: black;
+    border-radius: 25px;
 }
 
 .active {
-    background-color: red;
+    background-color: #9b003f;
+    color: white;
+    border: none;
 }
 
 .member-image {
