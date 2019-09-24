@@ -29,7 +29,7 @@ export default {
       const slideshow = document.getElementById('slideshow');
       const slide = slideshow.querySelectorAll('li');
       [...slide].forEach(slide => {
-        slide.style.backgroundImage = `url(${slide.getAttribute('src')})`
+        slide.style.backgroundImage = `${slide.getAttribute('src')}`
         slide.removeAttribute('src');
       });
       const totalNum = slide.length - 1;
