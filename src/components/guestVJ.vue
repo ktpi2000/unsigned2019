@@ -29,10 +29,11 @@ export default {
             members: [
                 {
                     name: "りゅーしゃ",
-                    image: require("../assets/img/member/massu.jpg"),
-                    category: 'GUEST',
-                    twitter: 'https://twitter.com/',
-                    comment: '栃木と八王子を中心に生息しているポン出しマン。大好きなコンテンツには正直になるオタク。「届かなくていい想いなんて、ないのですよ」'
+                    image: require("../assets/img/member/un_8th_icon.png"),
+                    category: "GUEST",
+                    twitter: "https://twitter.com/ryushaSW",
+                    credit: "Happy harmonize-はぴ☆はも/TKBもらっていいですか/THE ANTHEM/A_mothions",
+                    comment: "栃木と八王子を中心に生息しているポン出しマン。大好きなコンテンツには正直になるオタク。「届かなくていい想いなんて、ないのですよ」"
                 },
             ]
         }
