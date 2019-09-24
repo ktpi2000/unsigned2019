@@ -29,7 +29,7 @@ export default {
             members: [
                 {
                     name: "ふぉん",
-                    image: require("../assets/img/member/un_8th_icon.png"),
+                    image: require("../assets/img/member/fon.jpg"),
                     category: "GUEST",
                     twitter: "https://twitter.com/FonfonOKM",
                     credit: "ANIMA / A_motions",
