@@ -69,14 +69,13 @@ main {
 }
 
 .title {
-  position: absolute;
+position: absolute;
 top: 30%;
 width: 100%;
 color: #FFFFFF !important; 
 }
 
-.main-title {
-  color: #FFFFFF !important;
+.main-title { 
   font-size: 8vw;
   margin-bottom: 30px;
 }
@@ -100,9 +99,6 @@ color: #FFFFFF !important;
   width: 83%;
 }
 
-.top-slideshow-wrapper #slideshow {
-  margin: 0;
-}
 
 .top-slideshow-wrapper #slideshow li {
   background-position: center;
@@ -118,7 +114,6 @@ color: #FFFFFF !important;
   -o-transition: opacity 2s linear, transform 7.5s linear;
   transition: opacity 2s linear, transform 7.5s linear;
   transition: opacity 2s linear, transform 7.5s linear, -webkit-transform 7.5s linear;
-  width: 100%;
   will-change: opacity, transform;
 }
 
@@ -130,10 +125,6 @@ color: #FFFFFF !important;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-}
-
-body.hover .top-slideshow-wrapper {
-  height: calc(100vh - 135px);
 }
 
 .topimg {
