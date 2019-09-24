@@ -12,10 +12,6 @@
                     img.member-image(v-bind:src="member.image" alt="member img")
                 .member-name
                     span.member-name {{member.name}}
-                .member-category
-                    p {{member.category}}
-                .member-twitter
-                    a(:href="member.twitter") twitter
                 .button.is-danger.is-rounded(@click="openModal(member)") more
 
         b-modal(:active.sync="isModalActive" has-modal-card="")
@@ -92,7 +88,9 @@ export default {
 }
 
 .member-name {
-    font-size: 20px;
+    font-size: 26px;
+    margin-bottom: 5px;
+    
 }
 
 .filters {
@@ -114,7 +112,8 @@ export default {
 }
 
 .member-image {
-    width: 200px;
+    width: 300px;
+    border-radius: 300px;
 }
 
 
@@ -128,7 +127,7 @@ export default {
 .member {
     margin: 0px 10px;
     margin-bottom: 50px;
-	box-shadow:0px 2px 8px lightgrey;
+
 	flex-direction:column;
 	align-items:center;
 }

@@ -1,13 +1,20 @@
 <template lang="pug">
 div
-  .modal-card(style="width: auto")
+  .modal-card(style="width: 600")
     header.modal-card-head
       p.modal-card-title {{member.name}}
     section.modal-card-body
       img.member-image(v-bind:src="member.image" alt="member img")
-      p {{member.comment}}
-      p {{member.category}}
-        
+      br
+      b-tag.is-size-6(rounded) {{member.category}}
+      br
+      br
+      .member-twitter
+        a(:href="member.twitter")
+          img(src="../assets/img/Twitter_icon.png"  width="40px")
+      br
+      p.is-size-5 {{member.comment}}
+
     footer.modal-card-foot
       button.button(type="button" @click="$parent.close()") close
 </template>
