@@ -3,8 +3,8 @@
         .container
             .filters
                 span.filter(v-bind:class="{ active: currentFilter === 'ALL' }" v-on:click="setFilter('ALL')") ALL
-                span.filter(v-bind:class="{ active: currentFilter === 'DJ' }" v-on:click="setFilter('DJ')") DJ
-                span.filter(v-bind:class="{ active: currentFilter === 'DTM' }" v-on:click="setFilter('DTM')") DTM
+                span.filter(v-bind:class="{ active: currentFilter === 'ANISON' }" v-on:click="setFilter('ANISON')") ANISON
+                span.filter(v-bind:class="{ active: currentFilter === 'DANCE' }" v-on:click="setFilter('DANCE')") DANCE
 
         transition-group.members(name="members" class="columns is-multiline is-mobile")
             .member(v-if="currentFilter === member.category || currentFilter === 'ALL'" v-bind:key="member.name" v-for="member in members" class="column is-3-desktop is-5-mobile is-3-tablet")
@@ -33,36 +33,79 @@ export default {
             },
             members: [
                 {
+                    name: "ココイチ",
+                    image: require("../assets/img/member/un_8th_icon.png"),
+                    category: "ANISON",
+                    twitter: "https://twitter.com/Yu_chan_exvs2",
+                    comment: "名前の通り、好きなカレー屋はゴーゴーカレーです。2日に誕生日なので皆さん祝ってください。",
+                },
+                {
+                    name: "マイシパ95",
+                    image: require("../assets/img/member/maishipa95.jpg"),
+                    category: "DANCE",
+                    comment: "Vaporwave界隈が大好きなマイシパ95（マインスイーパ95）と申します。今回DanceやDisco,80s,Futurefunkというテーマで曲を回したいと思います。バブリーでセクシーな世界感を是非感じて下さい！",
+                },
+                {
+                    name: "CELL",
+                    image: require("../assets/img/member/un_8th_icon.png"),
+                    category: "ANISON",
+                    comment: "家でDJしながら飛び跳ねるのが趣味。最近、「これ好き！」ってなる曲が多くて嬉しい。",
+
+                },
+                {
+                    name: "みどり",
+                    image: require("../assets/img/member/un_8th_icon.png"),
+                    category: "ANISON",
+                    twitter: "https://twitter.com/ryder472",
+                    comment: "95年栃木生まれのオタク。 おとぎ銃士 赤ずきんを見て田村ゆかりさんと出会いオタクとしてのキャリアをスタート。 15歳のときにUK Hardcoreと出会いDJを始める。後にUK Hardcore系のイベントで(なぜか)アニソンDJの世界と出会いアニクラに飛び込んだ。(自称)unsigned唯一の皆勤賞",
+                },
+                {
+                    name: "サブレ",
+                    image: require("../assets/img/member/un_8th_icon.png"),
+                    category: "ANISON",
+                    twitter: "https://twitter.com/sacurea_sbr55",
+                    comment: "4回目のUnsigned参戦で今年からOB。3年前のUnsignedにて特撮オンリーでDJデビューしてから、北関東のアニクラを中心に遊びに行きながら活動中。群馬に引っ越したけどやっぱり小山のラーメンが好き！埼玉も好き。",
+                },
+                {
+                    name: "kuma",
+                    image: require("../assets/img/member/un_8th_icon.png"),
+                    category: "DANCE",
+                    comment: "今年初参加です。ミス等ありますがよろしくお願いします！頑張っていきますよ〜ｲｸｲｸ",
+                },
+                {
+                    name: "Hokke",
+                    image: require("../assets/img/member/un_8th_icon.png"),
+                    category: "ANISON",
+                    twitter: "https://twitter.com/hokke_",
+                    comment: "高専を卒業し、社会の闇に飲まれたOB",
+                },
+                {
+                    name: "880",
+                    image: require("../assets/img/member/un_8th_icon.png"),
+                    category: "ANISON",
+                    twitter: "https://twitter.com/hayao099",
+                    credit: "いしあに!!/A_motions",
+                    comment: "DJサークルunsignedでDJを始める．2016年からアニソンDJを始め，RSBKosen(秋葉原MOGRA)やアニ箱(音楽喫茶Sabaco)等学生主体のイベントの主催を経て，DJみどりに栃木県のアニソンイベント，いしあに!!に誘われイベントのアニソンDJとしてキャリアを始める．青春モノアニメとほのぼのとしたアニメが好き．",
+                },
+                {
+                    name: "たい焼き揉みたい",
+                    image: require("../assets/img/member/un_8th_icon.png"),
+                    category: "DANCE",
+                    comment: "頑張りたいです",
+                },
+                {
                     name: "Massu",
                     image: require("../assets/img/member/massu.jpg"),
-                    category: 'DJ',
-                    twitter: 'https://twitter.com/Maspi_427',
-                    comment: 'hello! good! yay!'
+                    category: "DANCE",
+                    twitter: "https://twitter.com/Maspi_427",
+                    comment: "Unsigned2年目です。鉄旅とUKHCが好き。yay! nice! cool!なDJをしたい",
                 },
                 {
-                    name: "Maaaa",
-                    image: require("../assets/img/member/massu.jpg"),
-                    category: 'DTM'
-                },
-                {
-                    name: "Madd",
-                    image: require("../assets/img/member/massu.jpg"),
-                    category: 'DTM'
-                },
-                {
-                    name: "Mae",
-                    image: require("../assets/img/member/massu.jpg"),
-                    category: 'DTM'
-                },
-                {
-                    name: "Mat",
-                    image: require("../assets/img/member/massu.jpg"),
-                    category: 'DTM'
-                },
-                {
-                    name: "Mah",
-                    image: require("../assets/img/member/massu.jpg"),
-                    category: 'DTM'
+                    name: "yakiya",
+                    image: require("../assets/img/member/un_8th_icon.png"),
+                    category: "ANISON",
+                    twitter: "https://twitter.com/yakiya28",
+                    comment: "遊びに行った工陵祭にて「クラブイベント」と邂逅。受験前にも関わらず、音研に入る事を志す。見事合格し、音楽研究愛好会のメンバーに！バラ色のキャンパスライフをスタートする。※1多くの恥と眠を経て、入学当初の目標である「無留年」を成す。※2現在は都内の建築系企業に就職し、残業と貯金額に怯える日々を送っている。※3VOCALOIDとショートアニメが好き。10,15分アニメはすぐ見返せるので良い。オススメは「宇宙パトロールルル子」※1 ここでは成績を指す。※2 年度末ごとに留年確定と各所で噂された。※3 イベントに多く行きたい、という動機のみで働いている。",
                 },
             ]
         }
