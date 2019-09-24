@@ -1,21 +1,21 @@
 <template lang="pug">
 .home
 	top/
-	h1(v-block-reveal="") ABOUT
+	.main-title(v-block-reveal="") ABOUT
 	about/
-	h1(v-block-reveal="") GUEST DJ
+	.main-title(v-block-reveal="") GUEST DJ
 	guestDJ/
-	h1(v-block-reveal="") GUEST VJ
+	.main-title(v-block-reveal="") GUEST VJ
 	guestVJ/
-	h1(v-block-reveal="") MEMBER
+	.main-title(v-block-reveal="") MEMBER
 	member/
-	h1(v-block-reveal="") TIMETABLE
+	.main-title(v-block-reveal="") TIMETABLE
 	timetable/
-	h1(v-block-reveal="") DTM
+	.main-title(v-block-reveal="") DTM
 	DTM/
-	h1(v-block-reveal="") ACCESS
+	.main-title(v-block-reveal="") ACCESS
 	access/
-	h1(v-block-reveal="") CAUTION
+	.main-title(v-block-reveal="") CAUTION
 	caution/
 	Footer/
 </template>
@@ -49,11 +49,19 @@ export default {
 </script>
 
 <style>
-h1 {
-	font-size: 3vw;
+.main-title {
+	font-size: 50px;
+	margin: 30px 0 10px 0;
+	padding: 5px 0;
 }
 .home {
 	overflow: hidden;
 	font-family: 'Noto Sans JP',   sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+.main-title {
+	font-size: 35px;
+}
 }
 </style>
