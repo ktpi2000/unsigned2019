@@ -29,7 +29,7 @@ export default {
             members: [
                 {
                     name: "りゅーしゃ",
-                    image: require("../assets/img/member/un_8th_icon.png"),
+                    image: require("../assets/img/member/ryusha.jpg"),
                     category: "GUEST",
                     twitter: "https://twitter.com/ryushaSW",
                     credit: "Happy harmonize-はぴ☆はも/TKBもらっていいですか/THE ANTHEM/A_mothions",
