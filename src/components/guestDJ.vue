@@ -43,7 +43,7 @@ export default {
                 },
                 {
                     name: "ごこめ",
-                    image: require("../assets/img/member/un_8th_icon.png"),
+                    image: require("../assets/img/member/gokome.jpg"),
                     category: "GUEST",
                     twitter: "https://twitter.com/gokome_V",
                     comment: "最近Vtuberにハマりだしたサブカルオタク受験生。中学時代にオタクになり、その後、高校デビューを目指しオタク脱却を願ったがアニソンの沼にハマってしまい断念。unsigned2017に訪れたのをきっかけにアニソンDJをスタート。主にkz(livetune)の手掛ける楽曲が好き。DJ歴3年に満たない若手なのでお手柔らかにお願いします。"

@@ -34,7 +34,7 @@ export default {
             members: [
                 {
                     name: "ココイチ",
-                    image: require("../assets/img/member/un_8th_icon.png"),
+                    image: require("../assets/img/member/koko1.jpg"),
                     category: "ANISON",
                     twitter: "https://twitter.com/Yu_chan_exvs2",
                     comment: "名前の通り、好きなカレー屋はゴーゴーカレーです。2日に誕生日なので皆さん祝ってください。",
@@ -54,7 +54,7 @@ export default {
                 },
                 {
                     name: "みどり",
-                    image: require("../assets/img/member/un_8th_icon.png"),
+                    image: require("../assets/img/member/ryder.jpg"),
                     category: "ANISON",
                     twitter: "https://twitter.com/ryder472",
                     comment: "95年栃木生まれのオタク。 おとぎ銃士 赤ずきんを見て田村ゆかりさんと出会いオタクとしてのキャリアをスタート。 15歳のときにUK Hardcoreと出会いDJを始める。後にUK Hardcore系のイベントで(なぜか)アニソンDJの世界と出会いアニクラに飛び込んだ。(自称)unsigned唯一の皆勤賞",
@@ -68,7 +68,7 @@ export default {
                 },
                 {
                     name: "kuma",
-                    image: require("../assets/img/member/un_8th_icon.png"),
+                    image: require("../assets/img/member/kuma.jpg"),
                     category: "DANCE",
                     comment: "今年初参加です。ミス等ありますがよろしくお願いします！頑張っていきますよ〜ｲｸｲｸ",
                 },
@@ -88,10 +88,11 @@ export default {
                     comment: "DJサークルunsignedでDJを始める．2016年からアニソンDJを始め，RSBKosen(秋葉原MOGRA)やアニ箱(音楽喫茶Sabaco)等学生主体のイベントの主催を経て，DJみどりに栃木県のアニソンイベント，いしあに!!に誘われイベントのアニソンDJとしてキャリアを始める．青春モノアニメとほのぼのとしたアニメが好き．",
                 },
                 {
-                    name: "たい焼き揉みたい",
-                    image: require("../assets/img/member/un_8th_icon.png"),
-                    category: "DANCE",
-                    comment: "頑張りたいです",
+                    name: "yakiya",
+                    image: require("../assets/img/member/yakiya.jpg"),
+                    category: "ANISON",
+                    twitter: "https://twitter.com/yakiya28",
+                    comment: "遊びに行った工陵祭にて「クラブイベント」と邂逅。受験前にも関わらず、音研に入る事を志す。入学当初はUK Hardcoreや音楽ゲーム曲を軸とした活動を行っていたが、先輩の勧めによりアイカツ！に魅了され、アニソンDJも意欲的に取り組む様になる。お洒落サウンドが軸なプレイを得意とし、中野heavysick ZERO「2D-iDOL-FESTiVAL!!」では二次元アイドルオンリー、栃木県下野市「いしあに!!」ではアニソンDJとして活動中。また、栃木県宇都宮市「A_motions」のメンバー。",
                 },
                 {
                     name: "Massu",
@@ -101,11 +102,24 @@ export default {
                     comment: "Unsigned2年目です。鉄旅とUKHCが好き。yay! nice! cool!なDJをしたい",
                 },
                 {
-                    name: "yakiya",
-                    image: require("../assets/img/member/un_8th_icon.png"),
-                    category: "ANISON",
-                    twitter: "https://twitter.com/yakiya28",
-                    comment: "遊びに行った工陵祭にて「クラブイベント」と邂逅。受験前にも関わらず、音研に入る事を志す。見事合格し、音楽研究愛好会のメンバーに！バラ色のキャンパスライフをスタートする。※1多くの恥と眠を経て、入学当初の目標である「無留年」を成す。※2現在は都内の建築系企業に就職し、残業と貯金額に怯える日々を送っている。※3VOCALOIDとショートアニメが好き。10,15分アニメはすぐ見返せるので良い。オススメは「宇宙パトロールルル子」※1 ここでは成績を指す。※2 年度末ごとに留年確定と各所で噂された。※3 イベントに多く行きたい、という動機のみで働いている。",
+                    name: "たい焼き揉みたい",
+                    image: require("../assets/img/member/taiyaki.jpg"),
+                    category: "DANCE",
+                    comment: "頑張りたいです",
+                },
+                {
+                    name: "Shine",
+                    image: require("../assets/img/member/shine.jpg"),
+                    category: "DANCE",
+                    twitter: "",
+                    comment: "もうとめたくない",
+                },
+                {
+                    name: "だっしー",
+                    image: require("../assets/img/member/dasshi.jpg"),
+                    category: "DANCE",
+                    twitter: "https://twitter.com/shumaonct22005",
+                    comment: "まだまだ使いなれていませんが、精一杯やるのでよろしくお願いします。",
                 },
             ]
         }
