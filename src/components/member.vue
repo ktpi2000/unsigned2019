@@ -74,7 +74,7 @@ export default {
                 },
                 {
                     name: "Hokke",
-                    image: require("../assets/img/member/un_8th_icon.png"),
+                    image: require("../assets/img/member/hokke.jpg"),
                     category: "ANISON",
                     twitter: "https://twitter.com/hokke_",
                     comment: "高専を卒業し、社会の闇に飲まれたOB",
