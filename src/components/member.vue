@@ -102,7 +102,7 @@ export default {
                 },
                 {
                     name: "yakiya",
-                    image: require("../assets/img/member/yakiya.jpg"),
+                    image: require("../assets/img/member/un_8th_icon.png"),
                     category: "ANISON",
                     twitter: "https://twitter.com/yakiya28",
                     comment: "遊びに行った工陵祭にて「クラブイベント」と邂逅。受験前にも関わらず、音研に入る事を志す。見事合格し、音楽研究愛好会のメンバーに！バラ色のキャンパスライフをスタートする。※1多くの恥と眠を経て、入学当初の目標である「無留年」を成す。※2現在は都内の建築系企業に就職し、残業と貯金額に怯える日々を送っている。※3VOCALOIDとショートアニメが好き。10,15分アニメはすぐ見返せるので良い。オススメは「宇宙パトロールルル子」※1 ここでは成績を指す。※2 年度末ごとに留年確定と各所で噂された。※3 イベントに多く行きたい、という動機のみで働いている。",
