@@ -6,9 +6,12 @@
         .column.is-3
             .menu.bar
                 ul
-                    li DJ
-                    li DTM
-                    li ACCESS
+                    li
+                        router-link(to="/") DJ
+                    li
+                        router-link(to="/dtm") DTM
+                    li
+                        router-link(to="/access") ACCESS
 </template>
 
 <script>
