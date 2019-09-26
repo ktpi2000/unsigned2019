@@ -12,7 +12,7 @@ body
         li
           img.topimg(src="@/assets/img/top005.jpg" alt="top img5")
   figcaption.title
-    .main-title Unsiged2019
+    .un-title Unsiged2019
     .sub-text 
       | 2019.
       span.date 11.03
@@ -22,7 +22,7 @@ body
     .sub-text @koryosai
 </template>
 
-<script scoped>
+<script>
 export default {
   mounted: function() {
     window.addEventListener('scroll', function() {
@@ -126,7 +126,7 @@ width: 100%;
 color: #FFFFFF !important; 
 }
 
-.main-title { 
+.un-title { 
   font-size: 8vw;
   margin-bottom: 30px;
 }
@@ -140,7 +140,7 @@ color: #FFFFFF !important;
 }
 
 @media screen and (max-width: 1024px) {
-.main-title { 
+.un-title { 
 font-size: 12vw;
 margin-bottom: 30px;
 }
@@ -154,7 +154,7 @@ font-size: 3vw;
 }
 
 @media screen and (max-width: 480px) {
-.main-title { 
+.un-title { 
   font-size: 14vw;
   margin-bottom: 30px;
 }
