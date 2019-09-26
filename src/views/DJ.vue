@@ -44,10 +44,6 @@ export default {
 	padding: 5px 0;
 	color: #9b003f;
 }
-.dj {
-	overflow: hidden;
-	font-family: 'Noto Sans JP',   sans-serif;
-}
 
 @media screen and (max-width: 480px) {
 .main-title {

@@ -26,6 +26,10 @@ export default {
 </script>
 
 <style>
+#app {
+  overflow: hidden;
+	font-family: 'Noto Sans JP',   sans-serif;
+}
 .v-enter-active, .v-leave-active{
   transition: opacity .5s;
 }
