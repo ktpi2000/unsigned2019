@@ -1,3 +1,31 @@
-<template>
-    <h1>dtm</h1>
+<template lang="pug">
+.dtm
+    h1 あなたのお気に入りのDTMer
+    h1 見つかること間違いなし！
+    .main-title(v-block-reveal="") NEW ALBUM
+    New/
 </template>
+
+<script>
+import New from '../components/DTM/new.vue'
+export default {
+    components: {
+        New,
+    },
+}
+</script>
+
+<style scoped>
+h1 {
+    font-size: 2vw;
+}
+.dtm {
+    margin-top: 150px;
+}
+.main-title {
+	font-size: 50px;
+	margin: 30px 0 10px 0;
+	padding: 5px 0;
+    color: #9b003f;
+}
+</style>

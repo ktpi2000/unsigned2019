@@ -45,6 +45,7 @@ export default {
 	font-size: 50px;
 	margin: 30px 0 10px 0;
 	padding: 5px 0;
+	color: #9b003f;
 }
 .dj {
 	overflow: hidden;
