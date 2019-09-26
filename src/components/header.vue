@@ -11,9 +11,44 @@
                     li ACCESS
 </template>
 
+<script>
+export default {
+    mounted: function() {
+        const target     = document.getElementById( 'header' ),
+            height     = 56;
+        let offset       = 0,
+            lastPosition = 0,
+            ticking      = false;
+        
+        function onScroll() {
+            if( lastPosition > height ) {
+                if( lastPosition > offset ) {
+                    target.classList.add('head-animation');
+                } else {
+                    target.classList.remove('head-animation');
+                }
+                offset = lastPosition;
+            }
+        }
+        
+        window.addEventListener('scroll', function() {
+            lastPosition = window.scrollY;
+            
+            if( !ticking ) {
+                window.requestAnimationFrame( function() {
+                    onScroll( lastPosition );
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        });
+    }
+}
+</script>
+
 <style scoped>
 #header {
-
+     transition: .3s cubic-bezier(.4, 0, .2, 1);
     z-index:30;
     position:fixed;
     top: 30px;
@@ -43,5 +78,8 @@ h1 {
 .column {
     padding: 0;
     
+}
+.head-animation {
+  transform: translateY(-300%);
 }
 </style>
