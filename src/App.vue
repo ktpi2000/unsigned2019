@@ -7,7 +7,9 @@
     </div>
     -->
     <Header/>
-    <router-view/>
+    <transition mode="out-in">
+      <router-view/>
+    </transition>
   </div>
 </template>
 
@@ -21,6 +23,12 @@ export default {
 </script>
 
 <style>
+.v-enter-active, .v-leave-active{
+  transition: opacity .5s;
+}
+.v-enter, .v-leave-to {
+  opacity: 0;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
