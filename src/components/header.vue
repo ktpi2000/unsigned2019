@@ -50,6 +50,11 @@ export default {
 </script>
 
 <style scoped>
+a {
+    color: white;
+    border-bottom: solid 2px orange;
+}
+
 #header {
      transition: .3s cubic-bezier(.4, 0, .2, 1);
     z-index:30;
@@ -70,19 +75,19 @@ li {
     border-radius: 0 50px 50px 0;
 }
 .bar {
-    background: red;
+    background: #9b003f;
     text-align: center;
     padding: 15px 0;
+    font-size: 22px;
 }
 h1 {
     border-radius: 50px 0 0 50px;
-    
 }
 .column {
     padding: 0;
     
 }
 .head-animation {
-  transform: translateY(-300%);
+  transform: translateY(-250%);
 }
 </style>
