@@ -13,6 +13,16 @@ export default new Router({
       component: () => import('./views/DJ.vue')
     },
     {
+      path: '/dtm',
+      name: 'dtm',
+      component: () => import('./views/DTM.vue')
+    },
+    {
+      path: '/access',
+      name: 'access',
+      component: () => import('./views/Access.vue')
+    },
+    {
       path: '*',
       name: 'Not Found',
       component: () => import('./views/404.vue')
