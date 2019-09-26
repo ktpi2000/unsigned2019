@@ -121,6 +121,13 @@ export default {
                     twitter: "https://twitter.com/shumaonct22005",
                     comment: "まだまだ使いなれていませんが、精一杯やるのでよろしくお願いします。",
                 },
+                {
+                    name: "2i6ou",
+                    image: require("@/assets/img/member/2i6ou.jpg"),
+                    category: "DANCE",
+                    twitter: "https://twitter.com/2i6ou",
+                    comment: "(淫夢要素は)ないです。24歳JKです。僕バイキンマン",
+                },
             ]
         }
 	},
