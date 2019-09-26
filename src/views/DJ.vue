@@ -13,7 +13,6 @@
 	timetable/
 	.main-title(v-block-reveal="") CAUTION
 	caution/
-	Footer/
 </template>
 
 <script>
@@ -24,7 +23,6 @@ import guestVJ from '../components/DJ/guestVJ.vue'
 import performer from '../components/DJ/performer.vue'
 import timetable from '../components/DJ/timetable.vue'
 import caution from '../components/DJ/caution.vue'
-import Footer from '../components/footer.vue'
 
 export default {
 	components: {
@@ -35,7 +33,6 @@ export default {
 		performer,
 		timetable,
 		caution,
-		Footer,
 	},
 };
 </script>
