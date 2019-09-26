@@ -1,5 +1,6 @@
 <template lang="pug">
 .access
+    .main-title(v-block-reveal="") ACCESS
     h1.is-size-4 会場
     p 小山工業高等専門学校
     p 専攻科棟4F 多目的ホール
@@ -43,6 +44,12 @@
 </template>
 
 <style scoped>
+.main-title {
+	font-size: 50px;
+	margin: 30px 0 10px 0;
+	padding: 5px 0;
+	color: #9b003f;
+}
 .access {
     margin-top: 150px;
 }
