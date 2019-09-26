@@ -1,5 +1,5 @@
 <template lang="pug">
-div
+.access
     h1.is-size-4 会場
     p 小山工業高等専門学校
     p 専攻科棟4F 多目的ホール
@@ -43,6 +43,9 @@ div
 </template>
 
 <style scoped>
+.access {
+    margin-top: 150px;
+}
 h2 {
     text-align: left;
 }
