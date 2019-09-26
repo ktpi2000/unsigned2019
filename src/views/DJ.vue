@@ -1,5 +1,5 @@
 <template lang="pug">
-.home
+.dj
 	top/
 	.main-title(v-block-reveal="") ABOUT
 	about/
@@ -46,7 +46,7 @@ export default {
 	margin: 30px 0 10px 0;
 	padding: 5px 0;
 }
-.home {
+.dj {
 	overflow: hidden;
 	font-family: 'Noto Sans JP',   sans-serif;
 }
