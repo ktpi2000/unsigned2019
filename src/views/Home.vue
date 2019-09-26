@@ -11,8 +11,6 @@
 	performer/
 	.main-title(v-block-reveal="") TIMETABLE
 	timetable/
-	.main-title(v-block-reveal="") ACCESS
-	access/
 	.main-title(v-block-reveal="") CAUTION
 	caution/
 	Footer/
@@ -25,7 +23,6 @@ import guestDJ from '../components/DJ/guestDJ.vue'
 import guestVJ from '../components/DJ/guestVJ.vue'
 import performer from '../components/DJ/performer.vue'
 import timetable from '../components/DJ/timetable.vue'
-import access from '../components/access.vue'
 import caution from '../components/DJ/caution.vue'
 import Footer from '../components/footer.vue'
 
@@ -37,7 +34,6 @@ export default {
 		guestVJ,
 		performer,
 		timetable,
-		access,
 		caution,
 		Footer,
 	},
