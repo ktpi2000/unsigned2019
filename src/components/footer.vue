@@ -5,7 +5,7 @@
             img(src="../assets/img/hashtag.png" alt="hashtag" width="200")
             h1.is-size-5
                 | follow us 
-                b-button(type="is-info" size="is-small" rounded) @OyNCT_onken
+                a.button.is-info.is-rounded.is-small(target="_blank" type="is-info" href="https://twitter.com/OyNCT_onken") @OyNCT_onken
 
         .column.is-3.un
             img(src="../assets/img/member/un_8th_icon.png" width="50px" alt="logo")
