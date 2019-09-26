@@ -25,7 +25,7 @@ body
 <script scoped>
 export default {
   mounted: function() {
-    window.addEventListener('load', function() {
+    window.addEventListener('scroll', function() {
       const slideshow = document.getElementById('slideshow');
       const slide = slideshow.querySelectorAll('li');
       [...slide].forEach(slide => {
