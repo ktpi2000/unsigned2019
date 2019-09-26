@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import modal from './modal.vue'
+import modal from '../modal.vue'
 export default {
     components: {
         modal
@@ -29,7 +29,7 @@ export default {
             members: [
                 {
                     name: "ふぉん",
-                    image: require("../assets/img/member/fon.jpg"),
+                    image: require("@/assets/img/member/fon.jpg"),
                     category: "GUEST",
                     twitter: "https://twitter.com/FonfonOKM",
                     credit: "ANIMA / A_motions",
@@ -37,13 +37,13 @@ export default {
                 },
                 {
                     name: "4mくん",
-                    image: require("../assets/img/member/4m.jpg"),
+                    image: require("@/assets/img/member/4m.jpg"),
                     category: "GUEST",
                     comment: "唯一無二才色兼備の僕です"
                 },
                 {
                     name: "ごこめ",
-                    image: require("../assets/img/member/gokome.jpg"),
+                    image: require("@/assets/img/member/gokome.jpg"),
                     category: "GUEST",
                     twitter: "https://twitter.com/gokome_V",
                     comment: "最近Vtuberにハマりだしたサブカルオタク受験生。中学時代にオタクになり、その後、高校デビューを目指しオタク脱却を願ったがアニソンの沼にハマってしまい断念。unsigned2017に訪れたのをきっかけにアニソンDJをスタート。主にkz(livetune)の手掛ける楽曲が好き。DJ歴3年に満たない若手なのでお手柔らかにお願いします。"

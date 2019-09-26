@@ -12,7 +12,7 @@ div
       br
       .member-twitter
         a(:href="member.twitter" target="_blank")
-          img(src="../assets/img/Twitter_icon.png"  width="40px")
+          img(src="@/assets/img/Twitter_icon.png"  width="40px")
       br
       p.is-size-5 {{member.comment}}
 

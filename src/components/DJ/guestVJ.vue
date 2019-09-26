@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import modal from './modal.vue'
+import modal from '../modal.vue'
 export default {
     components: {
         modal
@@ -29,7 +29,7 @@ export default {
             members: [
                 {
                     name: "りゅーしゃ",
-                    image: require("../assets/img/member/ryusha.jpg"),
+                    image: require("@/assets/img/member/ryusha.jpg"),
                     category: "GUEST",
                     twitter: "https://twitter.com/ryushaSW",
                     credit: "Happy harmonize-はぴ☆はも/TKBもらっていいですか/THE ANTHEM/A_mothions",

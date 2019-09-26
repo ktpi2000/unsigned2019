@@ -7,12 +7,10 @@
 	guestDJ/
 	.main-title(v-block-reveal="") GUEST VJ
 	guestVJ/
-	.main-title(v-block-reveal="") MEMBER
-	member/
+	.main-title(v-block-reveal="") PERFORMER
+	performer/
 	.main-title(v-block-reveal="") TIMETABLE
 	timetable/
-	.main-title(v-block-reveal="") DTM
-	DTM/
 	.main-title(v-block-reveal="") ACCESS
 	access/
 	.main-title(v-block-reveal="") CAUTION
@@ -21,15 +19,14 @@
 </template>
 
 <script>
-import top from '../components/top.vue'
-import about from '../components/about.vue'
-import guestDJ from '../components/guestDJ.vue'
-import guestVJ from '../components/guestVJ.vue'
-import member from '../components/member.vue'
-import timetable from '../components/timetable.vue'
-import DTM from '../components/DTM.vue'
+import top from '../components/DJ/top.vue'
+import about from '../components/DJ/about.vue'
+import guestDJ from '../components/DJ/guestDJ.vue'
+import guestVJ from '../components/DJ/guestVJ.vue'
+import performer from '../components/DJ/performer.vue'
+import timetable from '../components/DJ/timetable.vue'
 import access from '../components/access.vue'
-import caution from '../components/caution.vue'
+import caution from '../components/DJ/caution.vue'
 import Footer from '../components/footer.vue'
 
 export default {
@@ -38,9 +35,8 @@ export default {
 		about,
 		guestDJ,
 		guestVJ,
-		member,
+		performer,
 		timetable,
-		DTM,
 		access,
 		caution,
 		Footer,
