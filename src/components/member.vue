@@ -47,7 +47,7 @@ export default {
                 },
                 {
                     name: "CELL",
-                    image: require("../assets/img/member/un_8th_icon.png"),
+                    image: require("../assets/img/member/cell.jpg"),
                     category: "ANISON",
                     comment: "家でDJしながら飛び跳ねるのが趣味。最近、「これ好き！」ってなる曲が多くて嬉しい。",
 
