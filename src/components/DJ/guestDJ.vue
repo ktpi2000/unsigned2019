@@ -39,6 +39,7 @@ export default {
                     name: "4mくん",
                     image: require("@/assets/img/member/4m.jpg"),
                     category: "GUEST",
+                    twitter: "https://twitter.com/48LinQ",
                     comment: "唯一無二才色兼備の僕です"
                 },
                 {
