@@ -10,6 +10,7 @@
   "dependencies": {
     "buefy": "^0.8.3",
     "core-js": "^2.6.5",
+    "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
     "vue-analytics": "^5.17.2",
     "vue-block-reveal": "^1.0.0",
@@ -18,6 +19,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-plugin-pwa": "^3.11.0",
     "@vue/cli-service": "^3.11.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
