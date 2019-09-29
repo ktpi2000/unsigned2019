@@ -8,7 +8,7 @@
     p 今年でついに8年目！
     br
     br
-    p AINISONsideは、アニソン原曲を中心にRemix、ボカロ等、
+    p ANISONsideは、アニソン原曲を中心にRemix、ボカロ等、
     p DANCEsideは、BPM速い音楽を中心に様々なジャンルでDJしていくぞ！
     br
     br
