@@ -13,6 +13,11 @@ export default new Router({
       component: () => import('./views/DJ.vue')
     },
     {
+      path: '/tt',
+      name: 'timetable',
+      component: () => import('./views/TT.vue')
+    },
+    {
       path: '/dtm',
       name: 'dtm',
       component: () => import('./views/DTM.vue')
