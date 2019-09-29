@@ -1,22 +1,48 @@
 <template lang="pug">
 .nav
     ul
-        li
-            router-link(to="/") DJ
-        li
-            router-link(to="/tt") TT
-        li
-            router-link(to="/dtm") DTM
-        li
-            router-link(to="/access") ACCESS
+        li.menu.is-active
+            router-link(to="/")
+                img(src="@/assets/icon/border-all-solid.svg" width="20px")
+                p DJ
+        li.menu
+            router-link(to="/tt")
+                img(src="@/assets/icon/border-all-solid.svg" width="20px")
+                p TT
+        li.menu
+            router-link(to="/dtm")
+                img(src="@/assets/icon/border-all-solid.svg" width="20px")
+                p DTM
+        li.menu
+            router-link(to="/access")
+                img(src="@/assets/icon/border-all-solid.svg" width="20px")
+                p ACCESS
 </template>
+
+<script>
+export default {
+    mounted: function() {
+        document.addEventListener('DOMContentLoaded', function(){
+            // タブに対してクリックイベントを適用
+            const menus = document.getElementsByClassName('menu');
+                for(let i = 0; i < menus.length; i++) {
+                    menus[i].addEventListener('click', colorSwitch, false);
+                }
+
+            function colorSwitch(){
+                document.getElementsByClassName('is-active')[0].classList.remove('is-active');
+                this.classList.add('is-active');
+            }
+        });
+    }
+}
+</script>
 
 <style scoped>
 .nav {
     width: 100%;
     position: fixed;
     bottom: 0;
-    background: #b6c0d1;
     z-index:999;
 }
 li {
@@ -25,5 +51,17 @@ li {
     background: white;
     width: 25%;
     height: 60px;
+}
+a {
+    display: block;
+    padding-top: 3px;
+    color: black;
+}
+a:hover {
+    color: white;
+}
+.is-active {
+    background: #9b003f;
+    transition: all 0.2s ease-out;
 }
 </style>
