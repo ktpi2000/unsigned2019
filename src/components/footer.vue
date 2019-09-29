@@ -19,6 +19,7 @@
     margin-top: 150px;
     background: black;
     color: white;
+    margin-bottom: 60px;
 }
 .un {
     display: inline-block;

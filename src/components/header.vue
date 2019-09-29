@@ -65,8 +65,7 @@ a {
     text-align: center;
 }
 ul li {
-    display: inline;
-    
+    display: inline;  
 }
 li {
     margin: 0 1.25vw;
