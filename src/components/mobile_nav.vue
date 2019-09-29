@@ -58,9 +58,6 @@ a {
     padding-top: 3px;
     color: black;
 }
-a:hover {
-    color: white;
-}
 .is-active {
     background: #9b003f;
     transition: all 0.2s ease-out;
