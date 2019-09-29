@@ -16,11 +16,9 @@ export default {
 </script>
 
 <style scoped>
-.dtm {
-    margin-top: 20px;
-}
 h1 {
     font-size: 2vw;
+    margin-top: 10px;
 }
 .main-title {
 	font-size: 50px;
