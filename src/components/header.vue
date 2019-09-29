@@ -90,7 +90,7 @@ h1 {
   transform: translateY(-250%);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     #header {
         display: none;
     }

@@ -25,7 +25,11 @@ body
 <script>
 export default {
   mounted: function() {
-    window.addEventListener('scroll', function() {
+    window.addEventListener('load', slide);
+    window.addEventListener('scroll', slide);
+  },
+}
+function slide() {
       const slideshow = document.getElementById('slideshow');
       const slide = slideshow.querySelectorAll('li');
       [...slide].forEach(slide => {
@@ -53,9 +57,6 @@ export default {
 
       }, intarvalTime);
     }
-    )},
-}
-
 </script>
 
 <style scoped>

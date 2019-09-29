@@ -44,7 +44,6 @@ export default {
     height: 60px;
     position: fixed;
     bottom: 0;
-    z-index:999;
 }
 li {
     display: inline-block;
