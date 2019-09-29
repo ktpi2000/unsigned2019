@@ -3,19 +3,19 @@
     ul
         li.menu.is-active
             router-link(to="/")
-                img(src="@/assets/icon/border-all-solid.svg" width="20px")
+                img(src="@/assets/icon/compact-disc-solid.svg" width="20px")
                 p DJ
         li.menu
             router-link(to="/tt")
-                img(src="@/assets/icon/border-all-solid.svg" width="20px")
+                img(src="@/assets/icon/border-all-solid.svg" width="18px")
                 p TT
         li.menu
             router-link(to="/dtm")
-                img(src="@/assets/icon/border-all-solid.svg" width="20px")
+                img(src="@/assets/icon/headphones-alt-solid.svg" width="20px")
                 p DTM
         li.menu
             router-link(to="/access")
-                img(src="@/assets/icon/border-all-solid.svg" width="20px")
+                img(src="@/assets/icon/map-marker-alt-solid.svg" width="15px")
                 p ACCESS
 </template>
 
@@ -41,6 +41,7 @@ export default {
 <style scoped>
 .nav {
     width: 100%;
+    height: 60px;
     position: fixed;
     bottom: 0;
     z-index:999;
