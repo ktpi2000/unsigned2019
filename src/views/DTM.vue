@@ -30,13 +30,13 @@ h1 {
 }
 
 @media screen and (max-width: 1024px) {
-h1 {
+    h1 {
     font-size: 4vw;
-}
+    }
 @media screen and (max-width: 480px) {
-h1 {
+    h1 {
     font-size: 6vw;
-}
+    }
 }
 }
 </style>
