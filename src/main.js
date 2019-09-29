@@ -5,6 +5,7 @@ import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
 import VueBlockReveal from 'vue-block-reveal'
 import VueAnalytics from 'vue-analytics'
+import './registerServiceWorker'
 
 Vue.use(Buefy)
 
