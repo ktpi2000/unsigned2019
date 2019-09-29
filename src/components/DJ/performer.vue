@@ -46,10 +46,24 @@ export default {
                     comment: "Vaporwave界隈が大好きなマイシパ95（マインスイーパ95）と申します。今回DanceやDisco,80s,Futurefunkというテーマで曲を回したいと思います。バブリーでセクシーな世界感を是非感じて下さい！",
                 },
                 {
+                    name: "Smith",
+                    image: require("@/assets/img/member/smith.jpg"),
+                    category: "DANCE",
+                    twitter: "https://twitter.com/djsmith_hs",
+                    comment: "半年で2回引っ越しした男は違うというところを見せつけようと思います",
+                },
+                {
+                    name: "2g06",
+                    image: require("@/assets/img/member/2g06.jpg"),
+                    category: "DANCE",
+                    twitter: "https://twitter.com/ngr256",
+                    comment: "老人です",
+                },
+                {
                     name: "CELL",
                     image: require("@/assets/img/member/cell.jpg"),
                     category: "ANISON",
-                    comment: "家でDJしながら飛び跳ねるのが趣味。最近、「これ好き！」ってなる曲が多くて嬉しい。",
+                    comment: "家でDJしながら飛び跳ねるのが趣味。最近、「これ好き！」ってなる曲が多くて嬉しい。たぶんVTuberの曲をかけます。",
 
                 },
                 {
@@ -127,6 +141,13 @@ export default {
                     category: "DANCE",
                     twitter: "https://twitter.com/2i6ou",
                     comment: "(淫夢要素は)ないです。24歳JKです。僕バイキンマン",
+                },
+                {
+                    name: "saboten",
+                    image: require("@/assets/img/member/saboten.jpg"),
+                    category: "DANCE",
+                    twitter: "https://twitter.com/ka_5313000",
+                    comment: "音研の会長をしています。速い音楽が好きです",
                 },
             ]
         }
