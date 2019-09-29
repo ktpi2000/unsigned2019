@@ -2,15 +2,19 @@
 .dtm
     h1 あなたのお気に入りのDTMer
     h1 見つかること間違いなし！
-    .main-title(v-block-reveal="") NEW ALBUM
-    New/
+    //.main-title(v-block-reveal="") NEW ALBUM
+    //New/
+    .main-title(v-block-reveal="") 9th ALBUM
+    nine/
 </template>
 
 <script>
 import New from '../components/DTM/new.vue'
+import nine from '../components/DTM/nine.vue'
 export default {
     components: {
         New,
+        nine,
     },
 }
 </script>
