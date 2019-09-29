@@ -28,4 +28,15 @@ h1 {
 	padding: 5px 0;
     color: #9b003f;
 }
+
+@media screen and (max-width: 1024px) {
+h1 {
+    font-size: 4vw;
+}
+@media screen and (max-width: 480px) {
+h1 {
+    font-size: 6vw;
+}
+}
+}
 </style>
