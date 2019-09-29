@@ -89,4 +89,10 @@ h1 {
 .head-animation {
   transform: translateY(-250%);
 }
+
+@media screen and (max-width: 1024px) {
+    #header {
+        display: none;
+    }
+}
 </style>

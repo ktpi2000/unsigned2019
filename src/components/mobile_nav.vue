@@ -65,4 +65,10 @@ a:hover {
     background: #9b003f;
     transition: all 0.2s ease-out;
 }
+
+@media screen and (min-width: 1024px) {
+    .nav {
+        display: none;
+    }
+}
 </style>
