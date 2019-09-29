@@ -50,9 +50,6 @@
 	padding: 5px 0;
 	color: #9b003f;
 }
-.access {
-    margin-top: 150px;
-}
 h2 {
     text-align: left;
 }

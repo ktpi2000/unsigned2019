@@ -74,4 +74,10 @@ export default {
   pointer-events: none;
   opacity: 0;
 }
+
+@media screen and (min-width: 1024px) {
+    .dtm, .tt, .access {
+        margin-top: 150px;
+    }
+}
 </style>

@@ -19,9 +19,6 @@ export default {
 h1 {
     font-size: 2vw;
 }
-.dtm {
-    margin-top: 150px;
-}
 .main-title {
 	font-size: 50px;
 	margin: 30px 0 10px 0;
@@ -33,10 +30,11 @@ h1 {
     h1 {
     font-size: 4vw;
     }
+}
+
 @media screen and (max-width: 480px) {
     h1 {
     font-size: 6vw;
     }
-}
 }
 </style>

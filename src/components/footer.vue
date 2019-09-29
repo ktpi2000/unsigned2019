@@ -19,10 +19,15 @@
     margin-top: 150px;
     background: black;
     color: white;
-    margin-bottom: 60px;
 }
 .un {
     display: inline-block;
     vertical-align:top;
+}
+
+@media screen and (max-width: 1024px) {
+    .Footer {
+        margin-bottom: 60px;
+    }
 }
 </style>

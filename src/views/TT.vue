@@ -5,9 +5,6 @@
 </template>
 
 <style scoped>
-.tt {
-    margin-top: 150px;
-}
 .main-title {
 	font-size: 50px;
 	margin: 30px 0 10px 0;
