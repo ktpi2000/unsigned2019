@@ -3,19 +3,19 @@
     ul
         li.menu.is-active
             router-link(to="/")
-                img(src="@/assets/icon/compact-disc-solid.svg" width="20px")
+                img(src="@/assets/icon/compact-disc-solid.svg")
                 p DJ
         li.menu
             router-link(to="/tt")
-                img(src="@/assets/icon/border-all-solid.svg" width="18px")
+                img(src="@/assets/icon/border-all-solid.svg")
                 p TT
         li.menu
             router-link(to="/dtm")
-                img(src="@/assets/icon/headphones-alt-solid.svg" width="20px")
+                img(src="@/assets/icon/headphones-alt-solid.svg")
                 p DTM
         li.menu
             router-link(to="/access")
-                img(src="@/assets/icon/map-marker-alt-solid.svg" width="15px")
+                img(src="@/assets/icon/map-marker-alt-solid.svg")
                 p ACCESS
 </template>
 
@@ -60,6 +60,10 @@ a {
 .is-active {
     background: #9b003f;
     transition: all 0.2s ease-out;
+}
+img {
+    width: 28px;
+    height: 28px;
 }
 
 @media screen and (min-width: 1024px) {
