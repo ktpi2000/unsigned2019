@@ -12,7 +12,7 @@ body
         li
           img.topimg(src="@/assets/img/top005.jpg" alt="top img5")
   figcaption.title
-    .un-title Unsiged2019
+    .un-title Unsigned2019
     .sub-text 
       | 2019.
       span.date 11.03
