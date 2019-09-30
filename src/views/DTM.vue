@@ -6,15 +6,18 @@
     //New/
     .main-title(v-block-reveal="") 9th ALBUM
     nine/
+    page_footer/
 </template>
 
 <script>
 import New from '../components/DTM/new.vue'
 import nine from '../components/DTM/nine.vue'
+import page_footer from '@/components/footer.vue'
 export default {
     components: {
         New,
         nine,
+        page_footer,
     },
 }
 </script>

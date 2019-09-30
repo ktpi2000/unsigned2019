@@ -41,7 +41,17 @@
                     li なるべく公共交通機関のご利用をお願いいたします。
                     li すぎの木クリニックの駐車場は11/4のみご利用できます。
                     li ご不明な点は、工陵祭の役員にお尋ね下さい。
+    page_footer/
 </template>
+
+<script>
+import page_footer from '@/components/footer.vue'
+export default {
+    components: {
+        page_footer,
+    },
+}
+</script>
 
 <style scoped>
 .main-title {

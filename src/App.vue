@@ -10,19 +10,16 @@
     <transition mode="out-in">
       <router-view/>
     </transition>
-    <Footer/>
     <mobile_nav/>
   </div>
 </template>
 
 <script>
 import Header from '@/components/header.vue'
-import Footer from '@/components/footer.vue'
 import mobile_nav from '@/components/mobile_nav.vue'
 export default {
   components: {
     Header,
-    Footer,
     mobile_nav,
   }
 }
