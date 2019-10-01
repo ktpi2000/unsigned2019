@@ -136,7 +136,7 @@ export default {
                     comment: "まだまだ使いなれていませんが、精一杯やるのでよろしくお願いします。",
                 },
                 {
-                    name: "2i6ou",
+                    name: "二浪",
                     image: require("@/assets/img/member/2i6ou.jpg"),
                     category: "DANCE",
                     twitter: "https://twitter.com/2i6ou",
