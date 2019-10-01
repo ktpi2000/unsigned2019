@@ -14,7 +14,6 @@ body
   figcaption.title
     .un-title Unsigned2019
     .sub-text 
-      | 2019.
       span.date 11.03
       |[sun]~
       span.date 04
