@@ -20,10 +20,12 @@
             .content
                 ol
                     li 
-                        | 無料シャトルバス
-                        
+                        | 無料シャトルバス 
+                        b-button.is-info.is-small(@click="freebusModal = true") 時刻表
                     br
-                    li 小山市コミュニティバス おーバス
+                    li 
+                        | 小山市コミュニティバス おーバス 
+                        b-button.is-info.is-small(@click="oyamabusModal = true") 時刻表
                     p.fare 運賃:200円 IC利用不可
                     ul
                         li 
@@ -41,15 +43,33 @@
                     li なるべく公共交通機関のご利用をお願いいたします。
                     li すぎの木クリニックの駐車場は11/4のみご利用できます。
                     li ご不明な点は、工陵祭の役員にお尋ね下さい。
+    
+    b-modal(:active.sync="freebusModal" has-modal-card="")
+        freebusModal/
+
+    b-modal(:active.sync="oyamabusModal" has-modal-card="")
+        oyamabusModal/
+
     page_footer/
 </template>
 
 <script>
 import page_footer from '@/components/footer.vue'
+import freebusModal from '@/components/Access/freebus.vue'
+import oyamabusModal from '@/components/Access/oyamabus.vue'
 export default {
+    data: function() {
+        return {
+            freebusModal: false,
+            oyamabusModal: false,
+        }
+    },
     components: {
         page_footer,
+        freebusModal,
+        oyamabusModal
     },
+    
 }
 </script>
 
