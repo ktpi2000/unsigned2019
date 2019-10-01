@@ -1,17 +1,16 @@
 <template lang="pug">
-body
-  main
-    .top-slideshow-wrapper
-      ul#slideshow
-        li
-          img.topimg(src="@/assets/img/top001.jpg" alt="top img1")
-        li
-          img.topimg(src="@/assets/img/top002.jpg" alt="top img2")
-        li
-          img.topimg(src="@/assets/img/top003.jpg" alt="top img3")
-        li
-          img.topimg(src="@/assets/img/top005.jpg" alt="top img5")
-  figcaption.title
+.top
+  .top-slideshow-wrapper
+    ul#slideshow
+      li
+        img.topimg(src="@/assets/img/top001.jpg" alt="top img1")
+      li
+        img.topimg(src="@/assets/img/top002.jpg" alt="top img2")
+      li
+        img.topimg(src="@/assets/img/top003.jpg" alt="top img3")
+      li
+        img.topimg(src="@/assets/img/top005.jpg" alt="top img5")
+  .top-title
     .un-title Unsigned2019
     .sub-text 
       span.date 11.03
@@ -59,7 +58,7 @@ function slide() {
 </script>
 
 <style scoped>
-main {
+.top {
   margin: 0;
   max-width: none;
   width: 100%;
@@ -119,7 +118,7 @@ main {
   object-fit: cover;
 }
 
-.title {
+.top-title {
 position: absolute;
 top: 30%;
 width: 100%;
