@@ -116,6 +116,12 @@ export default {
                     comment: "Unsigned2年目です。鉄旅とUKHCが好き。yay! nice! cool!なDJをしたい",
                 },
                 {
+                    name: "TNB",
+                    image: require("@/assets/img/member/TNB.jpg"),
+                    category: "DANCE",
+                    comment: "何を言おう…",
+                },
+                {
                     name: "たい焼き揉みたい",
                     image: require("@/assets/img/member/taiyaki.jpg"),
                     category: "DANCE",
