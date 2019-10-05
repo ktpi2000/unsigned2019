@@ -1,8 +1,17 @@
 <template lang="pug">
 .tt
     .main-title(v-block-reveal="") TIME TABLE
-    p coming soon
+    timetable/
 </template>
+
+<script>
+import timetable from '../../src/components/DJ/timetable.vue'
+export default {
+    components: {
+        timetable,
+    }
+}
+</script>
 
 <style scoped>
 .main-title {

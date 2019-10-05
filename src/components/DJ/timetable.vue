@@ -1,122 +1,28 @@
 <template lang="pug">
-    .columns.is-centered
-        .column.is-4
-            h1 11.03 ANISON side
-            table
-                tbody
-                    tr(v-for="anison in anisons" :key="anison.id")
-                        th(align="center") {{ anison.time}}
-                        td {{ anison.name}}
-            
-        .column.is-4
-            h1 11.04 DANCE side
-            table
-                tbody
-                    tr(v-for="dance in dances" :key="dance.id")
-                        th(align="center") {{ dance.time}}
-                        td {{ dance.name}}
+.columns.is-centered
+    .column.is-4
+        .tt_name 11.03 ANISON side
+        anison_tt/
+        
+    .column.is-4
+        .tt_name 11.04 DANCE side
+        dance_tt/
                     
 </template>
 
 <script>
+import anison_tt from './anison_tt.vue'
+import dance_tt from './dance_tt.vue'
 export default {
-    data: function() {
-        return {
-            anisons: [
-            {
-                time: "11:00",
-                name: "yakiya",
-            },
-            {
-                time: "11:30",
-                name: "4mくん",
-            },
-            {
-                time: "12:10",
-                name: "CELL",
-            },
-            {
-                time: "12:40",
-                name: "ごこめ",
-            },
-            {
-                time: "13:30",
-                name: "サブレ",
-            },
-            {
-                time: "14:00",
-                name: "880",
-            },
-            {
-                time: "14:30",
-                name: "Hokke",
-            },
-            {
-                time: "15:00",
-                name: "みどり",
-            },
-            {
-                time: "15:30",
-                name: "ふぉん",
-            },
-            {
-                time: "16:20",
-                name: "ココイチ",
-            },
-        ],
-        dances: [
-            {
-                time: "10:00",
-                name: "マイシパ95",
-            },
-            {
-                time: "10:00",
-                name: "TNB",
-            },
-            {
-                time: "10:00",
-                name: "たい焼き揉みたい",
-            },
-            {
-                time: "10:00",
-                name: "kuma",
-            },
-            {
-                time: "10:00",
-                name: "だっしー",
-            },
-            {
-                time: "10:00",
-                name: "Shine",
-            },
-            {
-                time: "10:00",
-                name: "二浪",
-            },
-            {
-                time: "10:00",
-                name: "smith",
-            },
-            {
-                time: "10:00",
-                name: "2g06",
-            },
-            {
-                time: "10:00",
-                name: "Massu",
-            },
-            {
-                time: "10:00",
-                name: "saboten",
-            },
-        ]
-        }
+    components: {
+        anison_tt,
+        dance_tt,
     }
 }
 </script>
 
-<style scoped>
-h1 {
+<style>
+.tt_name {
     font-size: 30px;
 }
 
@@ -136,7 +42,7 @@ th, td {
 th {
     width: 30%;
     background: #9b003f;
-    color: #fff;
+    color: #fff !important;
     position: relative;
     z-index: 0;
     font-weight: normal;
