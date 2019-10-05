@@ -1,8 +1,11 @@
 <template lang="pug">
 .tt
     .main-title(v-block-reveal="") TIME TABLE
-    anison_tt/
-    dance_tt/
+    b-tabs(type="is-toggle-rounded" expanded size="is-medium")
+        b-tab-item(label="ANISONside")
+            anison_tt/
+        b-tab-item(label="DANCEside")
+            dance_tt/
 </template>
 
 <script>
