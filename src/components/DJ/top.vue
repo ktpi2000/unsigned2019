@@ -28,8 +28,7 @@ export default {
   },
 }
 function slide() {
-      const slideshow = document.getElementById('slideshow');
-      const slide = slideshow.querySelectorAll('li');
+      const slide = document.querySelectorAll('#slideshow li');
       [...slide].forEach(slide => {
         slide.style.backgroundImage = `${slide.getAttribute('src')}`
         slide.removeAttribute('src');
