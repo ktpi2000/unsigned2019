@@ -43,6 +43,7 @@ export default {
                     name: "マイシパ95",
                     image: require("@/assets/img/member/maishipa95.jpg"),
                     category: "DANCE",
+                    twitter: "https://twitter.com/Smiley35313283?s=09",
                     comment: "Vaporwave界隈が大好きなマイシパ95（マインスイーパ95）と申します。今回DanceやDisco,80s,Futurefunkというテーマで曲を回したいと思います。バブリーでセクシーな世界感を是非感じて下さい！",
                 },
                 {
