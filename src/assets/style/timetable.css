@@ -1,0 +1,45 @@
+table {
+    width: 90%;
+    border-collapse: collapse;
+    border-spacing:  5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding: 10px 10px;
+    font-size: 25px;
+}
+
+th {
+    width: 30%;
+    background: #9b003f;
+    color: #fff !important;
+    position: relative;
+    z-index: 0;
+    font-weight: normal;
+    border-radius: 10px 0 0 10px;
+}
+
+td {
+    background: #b5b5b5;
+    padding-left: 25px;
+    font-weight: bold;
+    border-radius: 0 10px 10px 0;
+}
+
+th::after {
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background: #9b003f;
+    transform: rotate(45deg);
+    top: 14px;
+    right: -10px;
+    z-index: -1;
+}
+
+tr {
+    border-bottom: solid 5px #fff;
+}
