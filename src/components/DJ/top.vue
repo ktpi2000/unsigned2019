@@ -119,6 +119,7 @@ function slide() {
 }
 
 .top-title {
+font-family: 'Montserrat', sans-serif;
 position: absolute;
 top: 30%;
 width: 100%;
@@ -128,6 +129,7 @@ color: #FFFFFF !important;
 .un-title { 
   font-size: 8vw;
   margin-bottom: 30px;
+  font-weight: bold;
 }
 
 .sub-text {
