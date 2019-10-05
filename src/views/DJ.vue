@@ -9,8 +9,9 @@
 	guestVJ/
 	.main-title(v-block-reveal="") PERFORMER
 	performer/
-	.main-title(v-block-reveal="") TIMETABLE
-	timetable/
+	.mobile-hidden
+		.main-title(v-block-reveal="") TIMETABLE
+		timetable/
 	.main-title(v-block-reveal="") CAUTION
 	caution/
 	page_footer/
@@ -46,6 +47,12 @@ export default {
 	margin: 30px 0 10px 0;
 	padding: 5px 0;
 	color: #9b003f;
+}
+
+@media screen and (max-width: 1024px) {
+.mobile-hidden {
+	display: none;
+}
 }
 
 @media screen and (max-width: 480px) {
