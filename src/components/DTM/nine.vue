@@ -4,8 +4,7 @@
         .column.is-3
             img(src="@/assets/img/9th_album.jpg" width="500px")
         .column.is-3
-            .title TITLE
-            .subtitle.tl OyNCT Onken 9th Album
+            .title OyNCT Onken 9th Album
             .content
                 ol
                     li Crude Spacecraft - Aohari
@@ -16,7 +15,8 @@
 </template>
 
 <style scoped>
-li, .tl {
+
+li {
     text-align: left;
 }
 </style>
