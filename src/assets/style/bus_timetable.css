@@ -13,11 +13,10 @@ th, td {
 
 th {
     width: 20%;
-    background: #389b1f;
     color: #fff !important;
     position: relative;
     z-index: 0;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 td {

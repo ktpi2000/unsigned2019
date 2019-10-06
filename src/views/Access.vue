@@ -8,7 +8,7 @@
     h1.is-size-4 住所
     p 栃木県小山市中久喜771
     br
-    a.button.is-info(target="_blank" href="https://www.google.com/maps/place/%E5%9B%BD%E7%AB%8B%E5%B0%8F%E5%B1%B1%E5%B7%A5%E6%A5%AD%E9%AB%98%E7%AD%89%E5%B0%82%E9%96%80%E5%AD%A6%E6%A0%A1/@36.3186853,139.8399723,17z/data=!3m1!4b1!4m5!3m4!1s0x601f4e17aa8ac303:0xffd4bb31378636da!8m2!3d36.318681!4d139.842161") Google map
+    a.button.is-info.is-rounded(target="_blank" href="https://www.google.com/maps/place/%E5%9B%BD%E7%AB%8B%E5%B0%8F%E5%B1%B1%E5%B7%A5%E6%A5%AD%E9%AB%98%E7%AD%89%E5%B0%82%E9%96%80%E5%AD%A6%E6%A0%A1/@36.3186853,139.8399723,17z/data=!3m1!4b1!4m5!3m4!1s0x601f4e17aa8ac303:0xffd4bb31378636da!8m2!3d36.318681!4d139.842161") Google map
     br
     br
     .columns.is-centered
@@ -21,11 +21,11 @@
                 ol
                     li 
                         | 無料シャトルバス 
-                        b-button.is-info.is-small(@click="freebusModal = true") 時刻表
+                        b-button.is-info.is-rounded(@click="freebusModal = true") 時刻表
                     br
                     li 
                         | 小山市コミュニティバス おーバス 
-                        b-button.is-info.is-small(@click="oyamabusModal = true") 時刻表
+                        b-button.is-success.is-rounded(@click="oyamabusModal = true") 時刻表
                     p.fare 運賃:200円 IC利用不可
                     ul
                         li 

@@ -126,4 +126,7 @@ export default {
 
 <style scoped>
 @import url("../../assets/style/bus_timetable.css");
+th {
+    background: #3273DC;
+}
 </style>
