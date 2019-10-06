@@ -110,6 +110,13 @@ export default {
                     comment: "遊びに行った工陵祭にて「クラブイベント」と邂逅。受験前にも関わらず、音研に入る事を志す。入学当初はUK Hardcoreや音楽ゲーム曲を軸とした活動を行っていたが、先輩の勧めによりアイカツ！に魅了され、アニソンDJも意欲的に取り組む様になる。お洒落サウンドが軸なプレイを得意とし、中野heavysick ZERO「2D-iDOL-FESTiVAL!!」では二次元アイドルオンリー、栃木県下野市「いしあに!!」ではアニソンDJとして活動中。また、栃木県宇都宮市「A_motions」のメンバー。",
                 },
                 {
+                    name: "Kushizam",
+                    image: require("@/assets/img/member/Kushizam.jpg"),
+                    category: "DANCE",
+                    twitter: "https://twitter.com/kushizam",
+                    comment: "20歳/男/音研OB",
+                },
+                {
                     name: "Massu",
                     image: require("@/assets/img/member/massu.jpg"),
                     category: "DANCE",
