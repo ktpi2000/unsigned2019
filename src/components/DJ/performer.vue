@@ -172,19 +172,7 @@ export default {
 </script>
 
 <style>
-.container {
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
-	align-items:center;
-}
-
-.member-name {
-    font-size: 26px;
-    margin-bottom: 5px;
-    
-}
-
+@import url("../../assets/style/profile_img.css");
 .filters {
     font-size: 24px;
 }
@@ -205,24 +193,5 @@ export default {
     border: none;
 }
 
-.member-image {
-    width: 300px;
-    border-radius: 300px;
-}
 
-
-.members {
-    margin-top:25px;
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:center;
-}
-
-.member {
-    margin: 0px 10px;
-    margin-bottom: 50px;
-
-	flex-direction:column;
-	align-items:center;
-}
 </style>
