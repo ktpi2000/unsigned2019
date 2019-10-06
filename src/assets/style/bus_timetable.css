@@ -29,9 +29,3 @@ td {
 tr {
     border-bottom: solid 5px #fff;
 }
-
-@media screen and (max-width: 480px) {
-    table {
-        width: 98%;
-    }
-}
