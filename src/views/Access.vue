@@ -30,11 +30,9 @@
                     ul
                         li 
                             | 高岳線 小山高専入り口で下車 
-                            a.button.is-info.is-small(href="https://www.city.oyama.tochigi.jp/uploaded/attachment/1817.pdf" target="_blank") 時刻表
                         br
                         li 
                             | 城東中久喜線 高専正門で下車 
-                            a.button.is-info.is-small(href="https://www.city.oyama.tochigi.jp/uploaded/attachment/1818.pdf" target="_blank") 時刻表
         .column.is-5
             h2.is-size-4 ◇お車でお越しの方
             img(src="@/assets/img/parking.jpg" alt="parking-map")
