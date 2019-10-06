@@ -1,5 +1,5 @@
 <template lang="pug">
-table
+table.djtt
     tbody
         tr(v-for="dance in dances" :key="dance.id")
             th(align="center") {{ dance.time}}

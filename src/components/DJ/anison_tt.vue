@@ -1,5 +1,5 @@
 <template lang="pug">
-table
+table.djtt
     tbody
         tr(v-for="anison in anisons" :key="anison.id")
             th(align="center") {{ anison.time}}

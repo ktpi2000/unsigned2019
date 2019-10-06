@@ -6,12 +6,12 @@ table {
     margin-right: auto;
 }
 
-th, td {
+.djtt th, .djtt td {
     padding: 10px 10px;
     font-size: 25px;
 }
 
-th {
+.djtt th {
     width: 30%;
     background: #9b003f;
     color: #fff !important;
@@ -21,7 +21,7 @@ th {
     border-radius: 10px 0 0 10px;
 }
 
-td {
+.djtt td {
     background: #b5b5b5;
     padding-left: 25px;
     font-weight: bold;
@@ -29,7 +29,7 @@ td {
     
 }
 
-th::after {
+.djtt th::after {
     content: '';
     position: absolute;
     height: 30px;
