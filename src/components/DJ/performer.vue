@@ -130,7 +130,7 @@ export default {
                     comment: "何を言おう…",
                 },
                 {
-                    name: "たい焼き揉みたい",
+                    name: "焼き揉み",
                     image: require("@/assets/img/member/taiyaki.jpg"),
                     category: "DANCE",
                     comment: "頑張りたいです",

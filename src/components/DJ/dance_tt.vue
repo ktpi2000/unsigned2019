@@ -21,7 +21,7 @@ export default {
                 },
                 {
                     time: "10:00",
-                    name: "たい焼き揉みたい",
+                    name: "焼き揉み",
                 },
                 {
                     time: "10:00",
