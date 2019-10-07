@@ -7,11 +7,11 @@
             .menu.bar
                 ul
                     li
-                        router-link(to="/") DJ
+                        router-link(to="/" exact-active-class="active") DJ
                     li
-                        router-link(to="/dtm") DTM
+                        router-link(to="/dtm" exact-active-class="active") DTM
                     li
-                        router-link(to="/access") ACCESS
+                        router-link(to="/access" exact-active-class="active") ACCESS
 </template>
 
 <script>
@@ -53,6 +53,14 @@ export default {
 a {
     color: white;
     border-bottom: solid 2px orange;
+}
+a:hover {
+    color: #2c2e2c;
+    border-bottom: solid 2px #2c2e2c;
+}
+
+.active {
+    border-bottom: solid 4px white;
 }
 
 #header {
