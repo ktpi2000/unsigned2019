@@ -40,7 +40,7 @@ function slide() {
         slide.removeAttribute('src');
       });
       const totalNum = slide.length - 1;
-      const fadeTime = 3000;
+      const fadeTime = 2000;
       const intarvalTime = 5000;
       let actNum = 0;
       let nowSlide;
