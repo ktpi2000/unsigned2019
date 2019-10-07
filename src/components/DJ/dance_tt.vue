@@ -12,47 +12,51 @@ export default {
         return {
             dances: [
                 {
-                    time: "10:00",
+                    time: "11:00",
                     name: "マイシパ95",
                 },
                 {
-                    time: "10:00",
+                    time: "11:30",
                     name: "TNB",
                 },
                 {
-                    time: "10:00",
+                    time: "12:00",
                     name: "焼き揉み",
                 },
                 {
-                    time: "10:00",
+                    time: "12:30",
                     name: "kuma",
                 },
                 {
-                    time: "10:00",
+                    time: "13:00",
                     name: "だっしー",
                 },
                 {
-                    time: "10:00",
+                    time: "13:30",
                     name: "Shine",
                 },
                 {
-                    time: "10:00",
+                    time: "14:00",
                     name: "二浪",
                 },
                 {
-                    time: "10:00",
+                    time: "14:30",
+                    name: "Kushizam",
+                },
+                {
+                    time: "15:00",
                     name: "smith",
                 },
                 {
-                    time: "10:00",
+                    time: "15:30",
                     name: "2g06",
                 },
                 {
-                    time: "10:00",
+                    time: "16:00",
                     name: "Massu",
                 },
                 {
-                    time: "10:00",
+                    time: "16:30",
                     name: "saboten",
                 },
             ]
