@@ -54,7 +54,7 @@ a {
     color: white;
     border-bottom: solid 2px orange;
 }
-a:hover {
+li:hover {
     color: #2c2e2c;
     border-bottom: solid 2px #2c2e2c;
 }
