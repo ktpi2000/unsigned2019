@@ -12,8 +12,9 @@ body
         li
           img.topimg(src="@/assets/img/top005.jpg" alt="top img5")
     .title
-      .un-title Unsigned2019
-      .sub-text 
+      //.un-title Unsigned2019
+      img.logo(src="@/assets/img/Unsigned_Onken.png")
+      //.sub-text 
         span.date 11.03
         |[sun]~
         span.date 04
