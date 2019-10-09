@@ -5,13 +5,13 @@ div
       p.modal-card-title 無料シャトルバス
     section.modal-card-body
       b-tabs(type="is-toggle-rounded" expanded size="is-medium")
-        b-tab-item(label="小山駅▷小山高専")
+        b-tab-item(label="小山駅▷高専")
           table
             tbody
                 tr(v-for="for_kosen in for_kosens" :key="for_kosen.id")
                     th(align="center") {{ for_kosen.hour}}
                     td {{ for_kosen.min}}
-        b-tab-item(label="小山高専▷小山駅")
+        b-tab-item(label="高専▷小山駅")
           table
             tbody
                 tr(v-for="for_sta in for_stas" :key="for_sta.id")

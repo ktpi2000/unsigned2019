@@ -26,9 +26,11 @@
     position: fixed;
     bottom: 0;
 }
+ul {
+    box-shadow: 0 -5px 3px -3px #a19fa0;
+}
 li {
     display: inline-block;
-    /*padding: 0 7%;*/
     background: white;
     width: 25%;
     height: 60px;
@@ -41,6 +43,7 @@ a {
 .active {
     background: #9b003f;
     transition: all 0.2s ease-out;
+    color: white;
 }
 img {
     width: 28px;
