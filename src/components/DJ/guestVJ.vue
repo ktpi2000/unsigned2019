@@ -35,6 +35,14 @@ export default {
                     credit: "Happy harmonize-はぴ☆はも/TKBもらっていいですか/THE ANTHEM/A_mothions",
                     comment: "栃木と八王子を中心に生息しているポン出しマン。大好きなコンテンツには正直になるオタク。「届かなくていい想いなんて、ないのですよ」"
                 },
+                {
+                    name: "素敵之宮",
+                    image: require("@/assets/img/member/ryosk.jpg"),
+                    category: "GUEST",
+                    twitter: "https://twitter.com/RYOSK17",
+                    credit: "ANIMA / ラン4ジャンプ!!",
+                    comment: "2016年初頭より、栃木大田原のMusic Bar dadaでアニソン中心のDJイベント『ANIMA』の主催の一角として活動中。始めた頃こそ大田原dadaで拙いDJをしながらも、誰が居てもアニソンを流してるうちにアニメやアニソンが好きなお客さんやアニソンDJの仲間が増え、今では自身の立ち上げたANIMA大田原がdadaのレギュラーパーティーとして3ヶ月に一度開催するまでに至った。現在、自身の所属するANIMA大田原やラン4ジャンプ‼︎ではVJを主に担っている。「かわいいは正義」的な観点で女の子の日常や、ヒロインの可愛いアニメを好んで観ている。"
+                },
             ]
         }
 	},
