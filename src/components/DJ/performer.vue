@@ -121,7 +121,7 @@ export default {
                     image: require("@/assets/img/member/massu.jpg"),
                     category: "DANCE",
                     twitter: "https://twitter.com/Maspi_427",
-                    comment: "Unsigned2年目です。鉄旅とUKHCが好き。yay! nice! cool!なDJをしたい",
+                    comment: "Unsigned2年目です。鉄旅とUKHCとLEDが好き。yay! nice! cool!なDJをしたい",
                 },
                 {
                     name: "TNB",
