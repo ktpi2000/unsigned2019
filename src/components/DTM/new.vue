@@ -2,7 +2,7 @@
 .new
     .columns.is-centered
         .column.is-3
-            img(src="https://placehold.jp/500x500.png")
+            img(src="https://placehold.jp/500x500.png" alt="new album")
             .subtitle DOWNLOAD
         .column.is-3
             .title TITLE

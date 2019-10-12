@@ -3,19 +3,19 @@
     ul
         li.menu.is-active
             router-link(to="/" exact-active-class="active")
-                img(src="@/assets/icon/compact-disc-solid.svg")
+                img(src="@/assets/icon/compact-disc-solid.svg" alt="icon001")
                 p DJ
         li.menu
             router-link(to="/tt" exact-active-class="active")
-                img(src="@/assets/icon/border-all-solid.svg")
+                img(src="@/assets/icon/border-all-solid.svg" alt="icon002")
                 p TT
         li.menu
             router-link(to="/dtm" exact-active-class="active")
-                img(src="@/assets/icon/headphones-alt-solid.svg")
+                img(src="@/assets/icon/headphones-alt-solid.svg" alt="icon003")
                 p DTM
         li.menu
             router-link(to="/access" exact-active-class="active")
-                img(src="@/assets/icon/map-marker-alt-solid.svg")
+                img(src="@/assets/icon/map-marker-alt-solid.svg" alt="icon004")
                 p ACCESS
 </template>
 
