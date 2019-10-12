@@ -5,6 +5,10 @@
     p 小山工業高等専門学校
     p 専攻科棟4F 多目的ホール
     br
+    b-button.is-info.is-rounded(@click="route = true") 道順
+    br
+    br
+    br
     h1.is-size-4 住所
     p 栃木県小山市中久喜771
     br
@@ -48,6 +52,9 @@
     b-modal(:active.sync="oyamabusModal" has-modal-card="")
         oyamabusModal/
 
+    b-modal(:active.sync="route" has-modal-card="")
+        route/
+
     page_footer/
 </template>
 
@@ -55,17 +62,20 @@
 import page_footer from '@/components/footer.vue'
 import freebusModal from '@/components/Access/freebus.vue'
 import oyamabusModal from '@/components/Access/oyamabus.vue'
+import route from '@/components/Access/route.vue'
 export default {
     data: function() {
         return {
             freebusModal: false,
             oyamabusModal: false,
+            route: false,
         }
     },
     components: {
         page_footer,
         freebusModal,
-        oyamabusModal
+        oyamabusModal,
+        route,
     },
     
 }
