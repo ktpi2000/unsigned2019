@@ -2,16 +2,17 @@
 .new
     .columns.is-centered
         .column.is-3
-            img(src="https://placehold.jp/500x500.png" alt="new album")
-            .subtitle DOWNLOAD
+            img(src="@/assets/img/10th_album.jpg" alt="new album")
+            //.subtitle DOWNLOAD
         .column.is-3
-            .title TITLE
-            .subtitle.tl TRACKLIST
-            .content
+            .title higher
+            //.content
                 ol
                     li unsigned
                     li unsigned
                     li unsigned
+            h1.title 現在曲を製作中！
+            
 </template>
 
 <style scoped>

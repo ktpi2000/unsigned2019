@@ -2,8 +2,8 @@
 .dtm
     h1 あなたのお気に入りのDTMer
     h1 見つかること間違いなし！
-    //.main-title(v-block-reveal="") NEW ALBUM
-    //New/
+    .main-title(v-block-reveal="") NEW ALBUM
+    New/
     .main-title(v-block-reveal="") 9th ALBUM
     nine/
     .main-title(v-block-reveal="") CREATOR
