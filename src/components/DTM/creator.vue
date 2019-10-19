@@ -41,6 +41,20 @@ export default {
                     twitter: "https://mobile.twitter.com/eliza_kisyou",
                     comment: "DTM始めたばっかりの者です。趣味は睡眠",
                 },
+                {
+                    name: "neya",
+                    image: require("@/assets/img/member/neya.jpg"),
+                    category: "DTM",
+                    twitter: "https://twitter.com/s_Inori27",
+                    comment: "気ままに作曲・耳コピ・楽譜書きしてます。",
+                },
+                {
+                    name: "あみゅー",
+                    image: require("@/assets/img/member/amyu.jpg"),
+                    category: "DTM",
+                    twitter: "https://twitter.com/TH_49_5_77",
+                    comment: "CDの七曲目を作りました　良かったら聴いてください",
+                },
             ]
         }
 	},
