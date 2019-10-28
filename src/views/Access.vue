@@ -90,6 +90,7 @@ export default {
 }
 h2 {
     text-align: left;
+    margin-left: 5px;
 }
 li,.fare,.platform {
     text-align: left;
