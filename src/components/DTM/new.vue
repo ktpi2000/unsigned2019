@@ -18,7 +18,7 @@
                     li 快晴Snowytown - AOhari
                     li Treasure in Sky island - 雪華
                     li 夕飛 - AOhari
-            a.button.is-danger.is-large.is-rounded(href="https://dtmkosen-1-1.tumblr.com/" target="_blank") Free DL →
+            a.button.is-danger.is-large.is-rounded(href="https://oynctonken.bandcamp.com/releases" target="_blank") Free DL →
             
 </template>
 
