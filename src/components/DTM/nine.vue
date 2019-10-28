@@ -15,8 +15,8 @@
 </template>
 
 <style scoped>
-
 li {
     text-align: left;
+    font-weight: 600;
 }
 </style>

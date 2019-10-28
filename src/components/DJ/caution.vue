@@ -27,8 +27,12 @@ export default {
 </script>
 
 <style scoped>
-
 li {
     text-align: left;
+}
+@media screen and (max-width: 768px) {
+    ul {
+        margin-right: 5px;
+    }
 }
 </style>

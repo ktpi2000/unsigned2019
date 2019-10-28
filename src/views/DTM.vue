@@ -12,7 +12,7 @@
     h1 小山高専・木更津高専・茨城高専
     h1 合同コンピレーションアルバムを製作！
     br
-    a.button.is-danger.is-large.is-rounded(href="https://dtmkosen-1-1.tumblr.com/" target="_blank") > More
+    a.button.is-danger.is-large.is-rounded(href="https://dtmkosen-1-1.tumblr.com/" target="_blank") More →
     page_footer/
 </template>
 
