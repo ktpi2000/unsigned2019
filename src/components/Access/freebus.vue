@@ -30,23 +30,23 @@ export default {
             for_kosens: [
                 {
                     hour: "9",
-                    min: "55",
+                    min: "",
                 },
                 {
                     hour: "10",
-                    min: "10　45",
+                    min: "10　50",
                 },
                 {
                     hour: "11",
-                    min: "00　35　50",
+                    min: "00　35",
                 },
                 {
                     hour: "12",
-                    min: "25　40",
+                    min: "20　35",
                 },
                 {
                     hour: "13",
-                    min: "45",
+                    min: "45　50",
                 },
                 {
                     hour: "14",
@@ -70,21 +70,21 @@ export default {
                 },
                 {
                     hour: "19",
-                    min: "05　20",
+                    min: "05",
                 },
             ],
             for_stas: [
                 {
                     hour: "9",
-                    min: "30　45",
+                    min: "45",
                 },
                 {
                     hour: "10",
-                    min: "20　35",
+                    min: "35",
                 },
                 {
                     hour: "11",
-                    min: "10　25",
+                    min: "10　15",
                 },
                 {
                     hour: "12",
@@ -92,7 +92,7 @@ export default {
                 },
                 {
                     hour: "13",
-                    min: "20　35",
+                    min: "25　40",
                 },
                 {
                     hour: "14",
@@ -116,7 +116,7 @@ export default {
                 },
                 {
                     hour: "19",
-                    min: "30　45",
+                    min: "30",
                 },
             ]
         }
