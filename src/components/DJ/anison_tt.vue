@@ -8,7 +8,7 @@ div
                 th(align="center") {{ anison.time}}
                 td {{ anison.name}}
     br
-    p VJ: りゅーしゃ
+    p VJ: りゅーしゃ, 素敵之宮
 </template>
 
 <script>
