@@ -1,9 +1,14 @@
 <template lang="pug">
-table.djtt
-    tbody
-        tr(v-for="anison in anisons" :key="anison.id")
-            th(align="center") {{ anison.time}}
-            td {{ anison.name}}
+div
+    p Open DJ: LEDJ
+    br
+    table.djtt
+        tbody
+            tr(v-for="anison in anisons" :key="anison.id")
+                th(align="center") {{ anison.time}}
+                td {{ anison.name}}
+    br
+    p VJ: りゅーしゃ
 </template>
 
 <script>

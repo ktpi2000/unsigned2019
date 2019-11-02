@@ -150,6 +150,12 @@ export default {
                     comment: "まだまだ使いなれていませんが、精一杯やるのでよろしくお願いします。",
                 },
                 {
+                    name: "寒天ゼリー",
+                    image: require("@/assets/img/member/kanten.jpg"),
+                    category: "DANCE",
+                    comment: "日向坂46と欅坂４６の曲でdjします！",
+                },
+                {
                     name: "二浪",
                     image: require("@/assets/img/member/2i6ou.jpg"),
                     category: "DANCE",
