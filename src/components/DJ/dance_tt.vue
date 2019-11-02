@@ -1,9 +1,14 @@
 <template lang="pug">
-table.djtt
-    tbody
-        tr(v-for="dance in dances" :key="dance.id")
-            th(align="center") {{ dance.time}}
-            td {{ dance.name}}
+div
+    p Open DJ: 寒天ゼリー
+    br
+    table.djtt
+        tbody
+            tr(v-for="dance in dances" :key="dance.id")
+                th(align="center") {{ dance.time}}
+                td {{ dance.name}}
+    br
+    p VJ: LEDJ
 </template>
 
 <script>
