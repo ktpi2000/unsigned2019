@@ -37,10 +37,10 @@ export default {
       swiperOption: {
         centeredSlides: true,
         autoplay: {
-          delay: 2500,
+          delay: 5000,
           disableOnInteraction: false
         },
-        speed: 3000,
+        speed: 2000,
         effect: 'fade',
         loop: true,
         simulateTouch: false,
