@@ -25,6 +25,7 @@
     height: 60px;
     position: fixed;
     bottom: 0;
+    z-index:2;
 }
 ul {
     box-shadow: 0 -5px 3px -3px #a19fa0;
