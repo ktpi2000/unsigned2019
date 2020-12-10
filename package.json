@@ -28,7 +28,7 @@
     "minimist": "^1.2.5",
     "pug": "^2.0.4",
     "pug-loader": "^2.4.0",
-    "pug-plain-loader": "^1.0.0",
+    "pug-plain-loader": "^1.1.0",
     "vue-template-compiler": "^2.6.12"
   }
 }
