@@ -24,7 +24,7 @@
     "@vue/cli-service": "^4.5.9",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
-    "eslint-plugin-vue": "^7.4.0",
+    "eslint-plugin-vue": "^7.4.1",
     "minimist": "^1.2.5",
     "pug": "^2.0.4",
     "pug-loader": "^2.4.0",
