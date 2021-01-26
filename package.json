@@ -15,7 +15,7 @@
     "vue-analytics": "^5.22.1",
     "vue-awesome-swiper": "^3.1.3",
     "vue-block-reveal": "^1.0.0",
-    "vue-router": "^3.5.0"
+    "vue-router": "^3.5.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.11",
